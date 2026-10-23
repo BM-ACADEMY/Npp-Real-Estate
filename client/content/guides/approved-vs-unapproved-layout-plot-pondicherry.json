@@ -1,0 +1,109 @@
+{
+  "path": "/guides/approved-vs-unapproved-layout-plot-pondicherry",
+  "navKey": "guide",
+  "crumb": "Approved vs Unapproved Layout Plots Near Pondicherry",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Approved vs Unapproved Layout Plots Near Pondicherry",
+  "description": "Unapproved layouts sell at a discount for a reason. What approval gives you, what its absence costs and how to check a layout near Pondicherry.",
+  "h1": "Approved vs unapproved layout plots near Pondicherry: what you gain and risk",
+  "eyebrow": "Guide",
+  "lead": "Unapproved plots are cheaper because they carry risks the seller is not pricing in.",
+  "ogImage": "og-approved-vs-unapproved-layout-plot-pondicherry.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 18,
+    "group": "For buyers"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/our-projects",
+    "label": "See our layouts"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What approval gives you",
+      "bullets": [
+        "Roads, open space and utilities planned and set aside",
+        "Easier loans from banks",
+        "Building plan sanction",
+        "Better resale because buyers and lenders trust it"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What an unapproved plot can cost",
+      "paras": [
+        "Without approval you may be refused a building permission, a bank loan and, in some cases, utility connections. Regularisation schemes exist from time to time but are not guaranteed. A cheaper plot can become the expensive one."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "How to check",
+      "paras": [
+        "Ask for the approval number and authority, then confirm with the authority itself. See [DTCP vs PPA](/guides/dtcp-vs-ppa-approval-pondicherry). For layouts we promote near the highway, such as those around [Tindivanam road](/real-estate-tindivanam-highway), we verify approval before listing."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Safer options",
+      "paras": [
+        "See the approved layouts we work with on [our layouts page](/our-projects)."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "See layouts we have verified",
+      "p": "Browse the approved layouts, then book a site visit.",
+      "actions": [
+        {
+          "label": "See our layouts",
+          "go": "/our-projects",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "DTCP vs PPA approval",
+          "go": "/guides/dtcp-vs-ppa-approval-pondicherry"
+        },
+        {
+          "name": "Documents to check before buying a plot",
+          "go": "/guides/documents-to-check-before-buying-plot"
+        }
+      ]
+    }
+  ]
+}

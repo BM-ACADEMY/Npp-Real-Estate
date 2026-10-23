@@ -1,0 +1,70 @@
+{
+  "path": "/about",
+  "navKey": "about",
+  "crumb": "About",
+  "title": "About Namma Pondy Properties | Pondicherry Property Team",
+  "description": "Who we are, how we verify documents, and why owners in Pondicherry, Kottakuppam and overseas trust us with their property and their keys.",
+  "h1": "About Namma Pondy Properties",
+  "eyebrow": "About",
+  "lead": "We are a Pondicherry property team: buying, selling, developing layouts and managing property for owners who live here and owners who live abroad.",
+  "ogImage": "team.jpg",
+  "schema": [
+    "Organization"
+  ],
+  "modified": "2026-10-22",
+  "wa": "Hi, I would like to know more about your services",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "How we work",
+      "bullets": [
+        "Documents before enthusiasm. We check before we promote, not after.",
+        "Original documents stay in our office custody; clients carry verified copies against a signed undertaking.",
+        "Our brokerage is due after registration — we are paid when the work is finished.",
+        "We say no to properties we cannot stand behind, including when it costs us a deal."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Part of Afra Ventures",
+      "paras": [
+        "Namma Pondy Properties is part of Afra Ventures Pvt Ltd, which also runs an academy, a digital agency and other local businesses from Pondicherry. For property listings, see [The Plot One](https://theplotone.in/), our separate listings platform."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Start a conversation",
+      "p": "Buying, selling, or looking after a property from abroad — one message is enough.",
+      "actions": [
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        },
+        {
+          "label": "Contact",
+          "go": "/contact",
+          "style": "line"
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "href": "/contact#contact-form",
+    "label": "Talk to our team"
+  },
+  "heroImage": "team.jpg",
+  "heroAlt": "The Namma Pondy and ABM Groups team in the Pondicherry office with Kamarudeen B"
+}

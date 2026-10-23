@@ -1,0 +1,112 @@
+{
+  "path": "/guides/vacant-house-maintenance-pondicherry",
+  "navKey": "guide",
+  "crumb": "Locked House in Kottakuppam? What to Check Every Month",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Locked House in Kottakuppam? What to Check Every Month",
+  "description": "A closed house in Pondicherry or Kottakuppam deteriorates faster than owners expect. A monthly checklist for damp, termites, drains and security.",
+  "h1": "Is your locked house in Kottakuppam losing value? What to check every month",
+  "eyebrow": "Guide",
+  "lead": "A house that is shut for a year does not stay as you left it. In a humid coastal climate, the damage is slow, quiet and expensive.",
+  "ogImage": "og-vacant-house-maintenance-pondicherry.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 3,
+    "group": "For owners living abroad"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/free-rental-audit#property-check",
+    "label": "Book my free property check"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "Why empty houses age quickly",
+      "paras": [
+        "Without daily use, air does not move, damp settles into walls and cupboards, and small leaks go unnoticed until a ceiling stains. Termites need very little time. A garden that is not cut can hide the compound wall within a season."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "The monthly checklist",
+      "bullets": [
+        "Open every door and window, and run every tap to clear stagnant water",
+        "Look at ceilings and wall bases for new damp marks",
+        "Check wood, doors and cupboards for termite trails",
+        "Clear drains, gutters and the sump",
+        "Test electrical points and the meter reading",
+        "Cut back the garden and check the compound wall and gate",
+        "Photograph every room with the date"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Security and encroachment",
+      "paras": [
+        "A visibly neglected house invites trouble. Neighbours notice who visits. Someone should be seen coming and going each month, and a trusted person should hold the keys. For more on protecting property you cannot visit, read our guide on [encroachment](/guides/encroachment-protect-property-nri)."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Doing it from abroad",
+      "paras": [
+        "Relatives get tired of this chore, and a monthly visit is easy to skip. A paid visit with a dated photo and video report fixes that. Start with our [free rental audit and property check](/free-rental-audit): we visit, film a walk-through and tell you what we found."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Want to know what condition your house is in?",
+      "p": "We will visit, film every room and send a written report in three working days.",
+      "actions": [
+        {
+          "label": "Book my free property check",
+          "go": "/free-rental-audit#property-check",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Monsoon damage: what to inspect",
+          "go": "/guides/monsoon-damage-coastal-property-inspection"
+        },
+        {
+          "name": "Seven signs your property manager is not doing the job",
+          "go": "/guides/signs-property-manager-not-doing-job"
+        }
+      ]
+    }
+  ]
+}

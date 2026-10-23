@@ -1,0 +1,114 @@
+{
+  "path": "/guides/monsoon-damage-coastal-property-inspection",
+  "navKey": "guide",
+  "crumb": "Monsoon Damage in Coastal Properties: What to Inspect",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Monsoon Damage in Coastal Properties: What to Inspect",
+  "description": "Heavy rain and salt air damage Pondicherry houses in predictable ways. What to inspect before and after each monsoon to avoid costly repairs.",
+  "h1": "Monsoon damage in coastal properties: what to inspect before and after",
+  "eyebrow": "Guide",
+  "lead": "Rain and salt air work on a building all year. The monsoon is when hidden problems show.",
+  "ogImage": "og-monsoon-damage-coastal-property-inspection.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 20,
+    "group": "For owners living abroad"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/free-rental-audit#property-check",
+    "label": "Book my free property check"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "Before the monsoon",
+      "bullets": [
+        "Roof and terrace: cracks, waterproofing, drains clear",
+        "Gutters and downpipes free of leaves",
+        "Compound wall and gate",
+        "Trees with branches near the roof or wires",
+        "Electrical points near walls that get damp"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "After heavy rain",
+      "bullets": [
+        "Damp patches on ceilings and wall bases",
+        "Water standing around the building",
+        "Mould on wardrobes and curtains",
+        "Cracks that have widened",
+        "Termite activity in damp wood"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Salt and humidity",
+      "paras": [
+        "Near the coast, metal fittings rust faster and paint peels sooner. Repainting and re-sealing on a schedule is cheaper than repair."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "If you are abroad",
+      "paras": [
+        "A visit before and after the monsoon, with dated photos, is a sensible minimum. See the [monthly checklist](/guides/vacant-house-maintenance-pondicherry) and our [free property check](/free-rental-audit)."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Book a pre-monsoon check",
+      "p": "We visit, film and report in writing.",
+      "actions": [
+        {
+          "label": "Book my free property check",
+          "go": "/free-rental-audit#property-check",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Locked house: what to check every month",
+          "go": "/guides/vacant-house-maintenance-pondicherry"
+        },
+        {
+          "name": "Seven signs your property manager is not doing the job",
+          "go": "/guides/signs-property-manager-not-doing-job"
+        }
+      ]
+    }
+  ]
+}

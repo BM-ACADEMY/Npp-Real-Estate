@@ -1,0 +1,82 @@
+{
+  "path": "/guides",
+  "navKey": "guide",
+  "crumb": "Guides",
+  "crumbParents": [],
+  "title": "Pondicherry Property Guides for Owners & Buyers",
+  "description": "Plain-language guides on buying, selling and managing property in Pondicherry and Kottakuppam, written by the Namma Pondy Properties team.",
+  "h1": "Property guides for Pondicherry owners, buyers and sellers",
+  "eyebrow": "Guides",
+  "lead": "Short, practical guides on the questions we hear most. Each one ends with a clear next step.",
+  "ogImage": "",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your property guides and have a question.",
+  "guide": false,
+  "blocks": [
+    {
+      "type": "articles"
+    },
+    {
+      "type": "nearby",
+      "h": "Area guides",
+      "items": [
+        {
+          "name": "Ariyankuppam, Pondicherry",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Auroville and the Villages Around It",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Kalapet and the ECR Belt",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Kottakuppam, a Local Guide",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Kuyavarpalayam, Pondicherry",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Lawspet, Pondicherry",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Mudaliarpet, Pondicherry",
+          "go": "/real-estate-mudaliarpet"
+        },
+        {
+          "name": "Muthialpet, Pondicherry",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Reddiarpalayam, Pondicherry",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Investment Plots on the Tindivanam Highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Plots in Villianur, Pondicherry",
+          "go": "/real-estate-villianur"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Have a question the guides do not answer?",
+      "p": "Send it to us. A real person replies, usually the same working day.",
+      "actions": [
+        {
+          "label": "Ask us",
+          "go": "/contact#contact-form"
+        }
+      ]
+    }
+  ]
+}

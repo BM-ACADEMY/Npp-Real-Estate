@@ -1,0 +1,127 @@
+{
+  "name": "Namma Pondy Properties",
+  "tagline": "Pondicherry & Kottakuppam",
+  "url": "https://nammapondyproperties.com",
+  "phone": "+918220969669",
+  "phoneDisplay": "8220969669",
+  "waNumber": "918220969669",
+  "hours": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "19:00",
+    "label": "10 AM – 7 PM, Monday to Saturday"
+  },
+  "instagram": "https://www.instagram.com/realestate_withkamar/",
+  "instagramHandle": "@realestate_withkamar",
+  "address": "First floor, 78, Lenin St, Pillaithotam, Kuyavarpalayam, Puducherry 605013",
+  "geo": {
+    "lat": 11.9436453,
+    "lng": 79.8185191
+  },
+  "areaServed": [
+    "Pondicherry",
+    "Puducherry",
+    "Kottakuppam",
+    "Auroville",
+    "Villianur",
+    "Lawspet",
+    "Ariyankuppam",
+    "Kalapet"
+  ],
+  "description": "Property consultants in Pondicherry and Kottakuppam: buying, selling, developing layouts and managing property for owners living in India and abroad.",
+  "tradingEntity": "Afra Ventures Pvt Ltd",
+  "defaultWa": "Hi, I would like to talk about a property in Pondicherry",
+  "footerBlurb": "Buying, selling, developing and looking after property in Pondicherry, Kottakuppam and the areas around them, for families here and abroad.",
+  "nav": [
+    {
+      "key": "home",
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "key": "buy",
+      "label": "Buy",
+      "href": "/buy-property-pondicherry"
+    },
+    {
+      "key": "sell",
+      "label": "Sell",
+      "href": "/sell-property-pondicherry"
+    },
+    {
+      "key": "valuation",
+      "label": "Valuation",
+      "href": "/free-property-valuation"
+    },
+    {
+      "key": "nri",
+      "label": "Property Management",
+      "href": "/nri-property-management-pondicherry"
+    },
+    {
+      "key": "audit",
+      "label": "Free Rental Audit",
+      "href": "/free-rental-audit"
+    },
+    {
+      "key": "projects",
+      "label": "Our Layouts",
+      "href": "/our-projects"
+    },
+    {
+      "key": "partner",
+      "label": "Partner",
+      "href": "/partner-with-us"
+    },
+    {
+      "key": "reel",
+      "label": "Reel Shoot",
+      "href": "/instagram-reel-shoot"
+    },
+    {
+      "key": "area",
+      "label": "Area Guide",
+      "href": "/real-estate-kottakuppam"
+    },
+    {
+      "key": "guide",
+      "label": "Guides",
+      "href": "/guides"
+    },
+    {
+      "key": "about",
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "key": "contact",
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "footerServices": [
+    "buy",
+    "sell",
+    "valuation",
+    "projects",
+    "partner",
+    "reel"
+  ],
+  "footerAbroad": [
+    "nri",
+    "audit",
+    "guide",
+    "area",
+    "about",
+    "contact"
+  ],
+  "plotOneUrl": "https://theplotone.in/",
+  "postalCode": "605013"
+}

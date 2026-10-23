@@ -1,0 +1,168 @@
+{
+  "path": "/real-estate-auroville",
+  "navKey": "area",
+  "crumb": "Auroville",
+  "title": "Property in Auroville | Land, Plots & Houses Nearby",
+  "description": "What can and cannot be bought in and around Auroville, how approvals differ, and how we verify and look after property for buyers living abroad.",
+  "h1": "Property in Auroville and the Villages Around It",
+  "eyebrow": "Area Guide",
+  "lead": "People searching for property in Auroville are often really looking at the villages and layouts around it. The first job is to work out what can actually be bought, and from whom.",
+  "ogImage": "og-auroville.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in property near Auroville",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Auroville"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What buyers mean by “Auroville property”",
+      "paras": [
+        "Land inside the Auroville township is held under the Auroville Foundation, so it is not bought and sold like ordinary private plots. What is sold in the open market is land in the surrounding villages and layouts, such as Kuilapalayam and Edayanchavadi, which borders the township.",
+        "That distinction matters before you pay anything. A listing that says “Auroville plot” may be outside the township, and its price, approvals and resale should be judged like any other plot on its own papers."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who buys here",
+      "bullets": [
+        "Returning families from the Gulf and Singapore who want a quiet house near the coast",
+        "Buyers from outside Tamil Nadu who like the area for its setting",
+        "Investors holding land along the approach roads",
+        "Owners who rent houses to long-stay visitors"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check before buying",
+      "paras": [
+        "Confirm exactly which side of the boundary the plot sits on, which state or territory’s rules apply, and which authority approved the layout. Check the patta and chitta, the encumbrance certificate and the parent documents as for any plot.",
+        "Foreign nationals who are not persons of Indian origin face restrictions on owning property in India. NRIs and persons of Indian origin can buy residential and commercial property but not agricultural land, plantations or farmhouses. Take legal advice for your own situation before agreeing a price."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Looking after a house here from abroad",
+      "paras": [
+        "Houses near the coast need regular monthly visits for damp, termites and monsoon damage. This is the kind of property our [management service](/nri-property-management-pondicherry) is built for, and a [free property check](/free-rental-audit) is the easiest way to see where yours stands."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Auroville",
+      "items": [
+        {
+          "k": "Looking to buy in Auroville",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Auroville",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Auroville questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Can I buy land inside Auroville?",
+          "a": "Land inside the township is held by the Auroville Foundation, so it is not available as an ordinary private purchase. Land in the villages around it is sold privately, subject to its own documents and approvals."
+        },
+        {
+          "q": "Can a foreigner buy property near Auroville?",
+          "a": "Rules depend on your citizenship and origin. Foreign nationals who are not of Indian origin face restrictions, while NRIs and persons of Indian origin can buy residential and commercial property. Please take legal advice first."
+        },
+        {
+          "q": "Can you manage a house I own near Auroville?",
+          "a": "Yes. We visit monthly, report with photographs and video, and handle rent and repairs for owners living abroad."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Auroville property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

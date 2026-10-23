@@ -1,0 +1,13 @@
+{
+  "name": "npp-server",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Namma Pondy Properties — backend: enquiry API, leads admin, and serves the built client (zero runtime dependencies)",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start": "node app.js",
+    "test": "node test/enquiry.test.js"
+  },
+  "engines": { "node": ">=20" }
+}

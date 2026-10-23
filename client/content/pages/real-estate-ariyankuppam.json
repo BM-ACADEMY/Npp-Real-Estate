@@ -1,0 +1,160 @@
+{
+  "path": "/real-estate-ariyankuppam",
+  "navKey": "area",
+  "crumb": "Ariyankuppam",
+  "title": "Property in Ariyankuppam | Plots & Houses Guide",
+  "description": "Plots and houses in Ariyankuppam on the southern side of Pondicherry: what drives demand, flood and drainage checks, and our document verification.",
+  "h1": "Property in Ariyankuppam, Pondicherry",
+  "eyebrow": "Area Guide",
+  "lead": "Ariyankuppam lies south of the town centre and is one of the directions Pondicherry is growing in. It suits buyers who want space and are willing to look past the centre.",
+  "ogImage": "og-ariyankuppam.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in property in Ariyankuppam",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Ariyankuppam"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "It is a mix of established village areas and newer layouts, with the river and low-lying land shaping what is built where. Demand comes from families priced out of the centre and from investors who follow the town’s southward growth."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who buys in Ariyankuppam",
+      "bullets": [
+        "Families building a first house",
+        "Investors buying plots to hold",
+        "Buyers comparing southern and northern routes out of town",
+        "Owners of older houses deciding whether to sell"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check before buying",
+      "paras": [
+        "Low-lying land needs extra care. Visit after heavy rain if you can, ask neighbours about water standing in the street, and check where drainage actually goes. A plot that is cheap because it floods is not cheap.",
+        "Then do the standard checks: approval, patta and chitta, the encumbrance certificate and the parent documents. Our [buyer service](/buy-property-pondicherry) covers these before you pay an advance."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Ariyankuppam",
+      "items": [
+        {
+          "k": "Looking to buy in Ariyankuppam",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Ariyankuppam",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Ariyankuppam questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Does Ariyankuppam flood?",
+          "a": "Parts of any low-lying area can hold water in heavy monsoon rain. We check drainage and ask local residents about the specific street before recommending a plot."
+        },
+        {
+          "q": "Is it a good area to invest in?",
+          "a": "It is one of the directions the town is growing, but returns depend on the specific plot: road, approval and drainage matter more than the area name."
+        },
+        {
+          "q": "Do you have layouts near Ariyankuppam?",
+          "a": "Availability changes monthly. Ask on [our layouts page](/our-projects) and we will tell you what is open today."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Ariyankuppam property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

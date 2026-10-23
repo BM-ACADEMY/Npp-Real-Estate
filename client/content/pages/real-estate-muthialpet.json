@@ -1,0 +1,161 @@
+{
+  "path": "/real-estate-muthialpet",
+  "navKey": "area",
+  "crumb": "Muthialpet",
+  "title": "Property in Muthialpet Pondicherry | Houses, Shops",
+  "description": "Houses and shops in central Muthialpet: why older family properties need careful document checks, and how we help owners abroad earn proper rent.",
+  "h1": "Property in Muthialpet, Pondicherry",
+  "eyebrow": "Area Guide",
+  "lead": "Muthialpet is part of the older, busier centre of town. Many of its properties have been in the same families for generations, and many of those families now live abroad.",
+  "ogImage": "og-muthialpet.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I have a property in Muthialpet, Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Muthialpet"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "It is a dense, central part of Pondicherry with a mix of older homes, small commercial buildings and shops that have traded for years. People value it for being close to everything, not for space.",
+        "Because it is built up, there are few plots. Most deals here are houses, shop buildings and shares in family properties."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who deals in Muthialpet property",
+      "bullets": [
+        "Families abroad who inherited a house and have never decided what to do with it",
+        "Shop owners whose rent has not changed in years",
+        "Small business buyers who want a central address",
+        "Buyers looking for a rental-income property"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check",
+      "paras": [
+        "Older properties often have several heirs and no clean partition. Before buying or selling, confirm every co-owner’s share, that the patta and tax records match the deed, and that no tenant holds long-standing rights at a rent far below today’s.",
+        "For owners, the question is usually not “what is it worth” but “what should it earn”. Our [free rental audit](/free-rental-audit) compares your rent with what comparable properties nearby are asking now."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Muthialpet",
+      "items": [
+        {
+          "k": "Looking to buy in Muthialpet",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Muthialpet",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Muthialpet questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Why does a family property in Muthialpet take longer to sell?",
+          "a": "Usually because the ownership needs sorting first: several heirs, an unregistered partition, or a tenant at an old rent. Sorting these before listing makes the sale faster and safer."
+        },
+        {
+          "q": "Can you handle a shop I own here from abroad?",
+          "a": "Yes. We collect rent, speak to the tenant, arrange repairs and send you a monthly report, and we can negotiate a rent revision at renewal."
+        },
+        {
+          "q": "Do you value properties in Muthialpet?",
+          "a": "Yes. Our free valuation uses recent registered deals and current asking prices for comparable properties nearby, with the reasoning written out."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Muthialpet property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

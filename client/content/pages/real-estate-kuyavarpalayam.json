@@ -1,0 +1,167 @@
+{
+  "path": "/real-estate-kuyavarpalayam",
+  "navKey": "area",
+  "crumb": "Kuyavarpalayam",
+  "title": "Property in Kuyavarpalayam | Plots & Houses Guide",
+  "description": "Property in Kuyavarpalayam, where our Pondicherry office is: what the area offers, what to check before buying, and how to meet us in person.",
+  "h1": "Property in Kuyavarpalayam, Pondicherry",
+  "eyebrow": "Area Guide",
+  "lead": "Kuyavarpalayam is the part of Pondicherry where our office is, so we know its streets and its owners first-hand. You can walk in and talk to us.",
+  "ogImage": "og-kuyavarpalayam.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I would like to visit your office in Kuyavarpalayam",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Kuyavarpalayam"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "It is an area of homes and small offices close to the town, where people value being near services without being in the busiest streets. We see houses, small plots and local commercial space change hands here."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who deals in Kuyavarpalayam property",
+      "bullets": [
+        "Local families buying or selling houses",
+        "Small businesses wanting an office nearby",
+        "Owners abroad with family property in the area",
+        "Buyers who want to meet the people they are dealing with"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Meet us at the office",
+      "paras": [
+        "We work from First floor, 78, Lenin Street, Pillaithotam, Kuyavarpalayam, Puducherry 605013, open 10 AM to 7 PM, Monday to Saturday. We would rather you came in and looked at the documents with us than decided over the phone.",
+        "If you cannot come, we arrange [video calls](/nri-property-management-pondicherry#video-call) at a time that suits your country."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check before buying",
+      "paras": [
+        "Whatever the area, the checks do not change: approval, patta and chitta, the encumbrance certificate and the parent documents. See how our [buyer service](/buy-property-pondicherry) handles them before you pay an advance."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Kuyavarpalayam",
+      "items": [
+        {
+          "k": "Looking to buy in Kuyavarpalayam",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Kuyavarpalayam",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Kuyavarpalayam questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Where is your office?",
+          "a": "First floor, 78, Lenin Street, Pillaithotam, Kuyavarpalayam, Puducherry 605013. We are open 10 AM to 7 PM, Monday to Saturday."
+        },
+        {
+          "q": "Do I need an appointment?",
+          "a": "It helps, so we can have the right person and your documents ready. A WhatsApp message is enough."
+        },
+        {
+          "q": "Can I do everything remotely?",
+          "a": "Yes. Many owners abroad do. We handle visits and paperwork here, and you join important conversations by video call."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Kuyavarpalayam property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

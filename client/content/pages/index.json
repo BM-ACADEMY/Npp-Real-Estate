@@ -1,0 +1,247 @@
+{
+  "path": "/",
+  "navKey": "home",
+  "title": "Real Estate Consultant in Pondicherry | Buy, Sell, Manage",
+  "description": "Buy, sell or manage property in Pondicherry and Kottakuppam, even from abroad. Documents verified, brokerage only after registration. Free valuation.",
+  "h1": "Your Property People in Pondicherry, Here or Abroad",
+  "eyebrow": "Real estate consultants",
+  "tamilLine": "பாண்டிச்சேரி & கோட்டக்குப்பம் — உங்கள் சொத்து, எங்கள் பொறுப்பு",
+  "lead": "We help families buy, sell, develop and look after property across Pondicherry, Kottakuppam, Auroville and the villages around them. Every document is checked before anyone signs anything.",
+  "heroImage": "hero-pondicherry.jpg",
+  "heroAlt": "The Namma Pondy Properties team at a property site visit in Pondicherry",
+  "ogImage": "og-home.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I would like to talk about a property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "I live abroad",
+      "go": "/nri-property-management-pondicherry",
+      "style": "line"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "trust",
+      "items": [
+        {
+          "h": "Documents verified first",
+          "p": "Originals stay in our office custody; you carry verified copies against a signed undertaking."
+        },
+        {
+          "h": "Pay after registration",
+          "p": "Brokerage is 2% up to ₹1 crore and 1% above. Nothing is due before the deal is done."
+        },
+        {
+          "h": "Built for owners abroad",
+          "p": "Monthly video reports, and calls at your hour rather than ours."
+        },
+        {
+          "h": "A real office",
+          "p": "Open 10 AM to 7 PM, Monday to Saturday, in Pondicherry."
+        }
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "Where would you like to start?",
+      "items": [
+        {
+          "k": "I want to buy",
+          "d": "Tell us your budget and area. We search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "I want to sell",
+          "d": "Start with a free valuation based on deals actually closed near you.",
+          "go": "/sell-property-pondicherry"
+        },
+        {
+          "k": "I live abroad",
+          "d": "Rent collected, tenants managed, your house looked after.",
+          "go": "/nri-property-management-pondicherry"
+        },
+        {
+          "k": "I'm an agent or builder",
+          "d": "Co-broking tie-ups and reel shoots on our page.",
+          "go": "/partner-with-us"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "items": [
+        {
+          "v": "13K+",
+          "l": "followers on @realestate_withkamar"
+        },
+        {
+          "v": "5 lakh+",
+          "l": "reel views in a month"
+        },
+        {
+          "v": "2% / 1%",
+          "l": "brokerage, payable only after registration"
+        },
+        {
+          "v": "10 AM–7 PM",
+          "l": "office open, six days a week"
+        }
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What we do",
+      "paras": [
+        "We are a service team, not a listings website. Tell us what you need and we do the legwork — searching, verifying, negotiating and following the paperwork through to registration."
+      ],
+      "bullets": [
+        "**Buying** — plots, houses, villas, farmland and commercial space, sourced and verified to your requirement. [How buying works](/buy-property-pondicherry)",
+        "**Selling** — valuation, marketing and screened buyers, right through to registration day. [How selling works](/sell-property-pondicherry)",
+        "**Property management** — rent collection, tenants and upkeep for owners who live abroad. [See the service](/nri-property-management-pondicherry)",
+        "**Our own layouts** — residential and investment layouts we develop near Pondicherry. [See our layouts](/our-projects)",
+        "**Reel shoots** — your property filmed and published to our 13,000-strong local audience. [Book a shoot](/instagram-reel-shoot)"
+      ]
+    },
+    {
+      "type": "cta",
+      "tone": "deep",
+      "h": "Living in Dubai, Singapore or Paris? Your Pondicherry property is in safe hands.",
+      "p": "Rent collected on time, tenants checked, bills paid and a video walk-through every month — without asking relatives for favours again. Start with a free property check: we visit, film the whole property and send you a written report in three working days.",
+      "actions": [
+        {
+          "label": "Book my free property check",
+          "go": "/nri-property-management-pondicherry#property-check",
+          "style": "light"
+        },
+        {
+          "label": "Schedule a video call",
+          "go": "/nri-property-management-pondicherry#video-call",
+          "style": "line"
+        }
+      ],
+      "note": "For owners in the Gulf, Singapore, Malaysia, Europe and beyond. We call at your time, not ours."
+    },
+    {
+      "type": "cta",
+      "h": "Selling? Find out what your property is actually worth first.",
+      "p": "Price it too low and you lose lakhs. Price it too high and it sits unsold for a year. Our free valuation is built from registrations and deals in your own street, not guesswork.",
+      "actions": [
+        {
+          "label": "Get my free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "bloom"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Areas we cover",
+      "items": [
+        {
+          "name": "Ariyankuppam, Pondicherry",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Auroville and the Villages Around It",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Kalapet and the ECR Belt",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Kottakuppam, a Local Guide",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Kuyavarpalayam, Pondicherry",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Lawspet, Pondicherry",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Mudaliarpet, Pondicherry",
+          "go": "/real-estate-mudaliarpet"
+        },
+        {
+          "name": "Muthialpet, Pondicherry",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Reddiarpalayam, Pondicherry",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Investment Plots on the Tindivanam Highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Plots in Villianur, Pondicherry",
+          "go": "/real-estate-villianur"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Buying? Tell us what you want and we'll do the searching.",
+      "p": "Share your budget, area and purpose. We shortlist, check every document, and arrange visits only for properties worth your Sunday.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        }
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Why owners trust us with the paperwork",
+      "bullets": [
+        "Original documents stay in our office custody; you carry verified copies, handed over against a signed undertaking",
+        "Our brokerage is payable only after registration — 2% up to ₹1 crore, 1% above that",
+        "You can walk into our office, meet the team and see the files",
+        "Every property we promote has had its documents seen by us first"
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Questions we get every week",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Do you charge anything to start?",
+          "a": "No. Valuations, property checks and document reviews are free. Our brokerage is 2% of the property value up to ₹1 crore and 1% above that, payable only after registration."
+        },
+        {
+          "q": "Can you manage my property while I'm abroad?",
+          "a": "Yes — this is a large part of our work. We handle tenants, rent collection, bills and maintenance, and send you a monthly report with photos and video. The fee is 10% of the rent we collect, plus GST."
+        },
+        {
+          "q": "How do I receive rent if I live outside India?",
+          "a": "Rent is transferred to your NRO account after the applicable TDS. We share statements and receipts every month; your CA can reconcile them at year end."
+        },
+        {
+          "q": "Do you handle registration and documents?",
+          "a": "We coordinate the entire process — verification, drafting with your lawyer, the sub-registrar appointment and handover."
+        },
+        {
+          "q": "Do you sell your own layouts?",
+          "a": "Yes. We develop residential and investment layouts around Pondicherry. Ask us what is open right now."
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "h": "What our clients say",
+      "items": []
+    }
+  ]
+}

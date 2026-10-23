@@ -1,0 +1,200 @@
+{
+  "name": "NPP enquiry -> Google Sheet",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "npp-enquiry",
+        "authentication": "headerAuth",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "SET_ME",
+          "name": "NPP secret (header X-NPP-Secret)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const b = $input.first().json.body || $input.first().json;\nconst f = b.fields || {};\nconst ist = new Date(b.createdAt || Date.now()).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', hour12: false });\nconst details = Object.entries(f).filter(([k]) => !['area','property_area','property_type','country'].includes(k)).map(([k,v]) => k + ': ' + v).join(' | ');\nreturn [{ json: {\n  'Timestamp (IST)': ist, 'Form type': b.form_type, 'Source page': b.source_page, 'Name': b.name, 'Phone': b.phone,\n  'Country': f.country || '', 'Property area': f.area || f.property_area || f.location || '', 'Property type': f.property_type || '',\n  'Details': details, 'Referrer': b.referrer || '', 'UTM source': (b.utm||{}).source || '', 'UTM medium': (b.utm||{}).medium || '', 'UTM campaign': (b.utm||{}).campaign || '',\n  'Enquiry ID': b.id, 'Status': 'New', 'Owner': '', 'Next follow-up': '', 'Notes': '' } }];"
+      },
+      "name": "Map row",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        260,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "SET_SHEET_ID"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "Enquiries"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {}
+        },
+        "options": {}
+      },
+      "name": "Append to Enquiries",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        520,
+        0
+      ],
+      "onError": "continueErrorOutput",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "SET_ME",
+          "name": "Google Sheets"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\"ok\":true}",
+        "options": {
+          "responseCode": 200
+        }
+      },
+      "name": "Respond 200",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        780,
+        -80
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\"ok\":false}",
+        "options": {
+          "responseCode": 500
+        }
+      },
+      "name": "Respond 500",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        780,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "SET_ALERT_EMAIL",
+        "subject": "NPP enquiry failed to reach the Sheet",
+        "message": "={{ 'Enquiry ' + $('Map row').first().json['Enquiry ID'] + ' (' + $('Map row').first().json['Name'] + ', ' + $('Map row').first().json['Phone'] + ') could not be appended. It is safe in the website store and will be retried.' }}"
+      },
+      "name": "Alert email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        780,
+        300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "SET_ME",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "SET_ALERT_EMAIL",
+        "subject": "={{ 'New NPP lead: ' + $('Map row').first().json['Name'] + ' (' + $('Map row').first().json['Form type'] + ')' }}",
+        "message": "={{ 'Name: ' + $('Map row').first().json['Name'] + '\\nPhone: ' + $('Map row').first().json['Phone'] + '\\nForm: ' + $('Map row').first().json['Form type'] + '\\nPage: ' + $('Map row').first().json['Source page'] + '\\nDetails: ' + $('Map row').first().json['Details'] + '\\nWhatsApp: https://wa.me/' + $('Map row').first().json['Phone'].replace('+','') }}"
+      },
+      "name": "New lead alert",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        780,
+        -260
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "SET_ME",
+          "name": "Gmail"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Map row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Map row": {
+      "main": [
+        [
+          {
+            "node": "Append to Enquiries",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append to Enquiries": {
+      "main": [
+        [
+          {
+            "node": "Respond 200",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "New lead alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond 500",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Alert email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

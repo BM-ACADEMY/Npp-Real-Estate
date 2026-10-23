@@ -1,0 +1,82 @@
+{
+  "path": "/nri-property-management-pondicherry",
+  "navKey": "nri",
+  "crumb": "Property Management",
+  "title": "NRI Property Management in Pondicherry & Kottakuppam",
+  "description": "Living abroad? We collect rent, manage tenants and maintain your house or shops in Pondicherry and Kottakuppam. Monthly video report. Free property check.",
+  "h1": "NRI Property Management in Pondicherry and Kottakuppam",
+  "eyebrow": "Property Management",
+  "lead": "Thousands of families from Pondicherry and Kottakuppam work in the Gulf, Singapore, Malaysia and France. Their houses and shops back home are looked after by whoever happens to be free — a cousin, a neighbour, an old tenant. It works until it doesn't.",
+  "ogImage": "og-nri.jpg",
+  "schema": ["Service"],
+  "service": { "name": "NRI Property Management in Pondicherry and Kottakuppam", "serviceType": "NRI property management Pondicherry" },
+  "hreflang": [
+    { "lang": "en-IN", "path": "/nri-property-management-pondicherry" },
+    { "lang": "ta-IN", "path": "/nri-property-management-pondicherry/ta" },
+    { "lang": "x-default", "path": "/nri-property-management-pondicherry" }
+  ],
+  "modified": "2026-10-22",
+  "wa": "Hi, I live in ___ and I want the free property check for my property in ___",
+  "heroActions": [
+    { "label": "WhatsApp us", "go": "wa", "style": "wa" },
+    { "label": "Talk to our team", "go": "/contact", "style": "line" }
+  ],
+  "blocks": [
+    { "type": "sec", "h": "What usually goes wrong",
+      "bullets": [
+        "Rent arrives two months late, and nobody wants to be the one to ask",
+        "The rent has not been revised in six years while the street has doubled",
+        "A locked house develops leaks, damp and a garden nobody can see from abroad",
+        "Property tax and EB dues quietly accumulate",
+        "Relatives grow tired of being the unpaid caretaker, and nobody says so"
+      ],
+      "paras": ["Not sure where your property stands? Start with a [free rental audit](/free-rental-audit), or read our guide on [managing a Pondicherry property from abroad](/guides/manage-pondicherry-property-from-abroad)."] },
+    { "type": "sec", "h": "What we handle for you",
+      "bullets": [
+        "Finding and screening tenants, and drafting the rental agreement",
+        "Monthly rent collection, with a statement and receipts",
+        "A monthly photo and video report on WhatsApp — for rented and vacant properties",
+        "Repairs and maintenance coordinated, with quotes approved by you and bills shared",
+        "Property tax, electricity and water bill payments",
+        "Key custody, move-in and move-out inspections",
+        "Rent revision negotiation at every renewal",
+        "Full sale support whenever you decide to sell"
+      ] },
+    { "type": "table", "h": "What it costs", "cols": ["Service", "Fee"],
+      "rows": [
+        ["Management of a rented property", "10% of rent collected + GST"],
+        ["Setup or onboarding", "No charge"],
+        ["Annual renewal", "No charge"],
+        ["Negotiating a rent revision", "No charge"],
+        ["Placing a new tenant (lease under 3 years)", "1 month's rent + GST"],
+        ["Placing a new tenant (lease of 3 years or more)", "2 months' rent + GST"],
+        ["Care plan for a vacant house", "Fixed monthly fee — ask us"]
+      ] },
+    { "type": "cta", "tone": "deep",
+      "h": "Start with a free property check",
+      "p": "We visit your property, film a full walk-through, check the rent against the market and send you a written report within three working days. You decide afterwards whether you want us to manage it.",
+      "actions": [
+        { "label": "Book my free property check", "go": "#property-check", "style": "light" },
+        { "label": "Schedule a video call", "go": "#video-call", "style": "line" }
+      ],
+      "note": "Video calls at Gulf, Singapore, Malaysia or European hours — tell us your time." },
+    { "type": "form", "id": "property_check", "h": "Book your free property check" },
+    { "type": "form", "id": "video_call", "h": "Schedule a video call" },
+    { "type": "sec", "h": "Why owners abroad trust us with keys",
+      "bullets": [
+        "A registered business with a Pondicherry office your family can walk into",
+        "A written management agreement setting out exactly what we do and what we charge",
+        "Every payment receipted; every repair quoted before it is done",
+        "Original documents kept in office custody, released only against a signed undertaking",
+        "The same team that sells property here, so you get a straight answer about what yours is worth"
+      ] },
+    { "type": "faq", "h": "Questions from owners abroad", "id": "faq", "items": [
+      { "q": "How do I receive the rent?", "a": "Into your NRO account after the applicable TDS deduction, with a monthly statement. If a family member in India collects on your behalf, we can route it that way instead." },
+      { "q": "What about TDS on rent?", "a": "Rent paid to an NRI attracts TDS at the rates in force, deducted by the tenant and deposited against your PAN. We keep the paperwork organised for your CA — we are not tax advisors and would not pretend to be." },
+      { "q": "My house is locked and empty. Is it worth managing?", "a": "Often it is the case that needs it most. Empty houses deteriorate quietly and are the ones most at risk of unauthorised occupation. Our care plan covers regular visits, cleaning, minor repairs and bill payments." },
+      { "q": "Can you find a tenant if the property is vacant?", "a": "Yes. We advertise it, screen applicants, verify their identity and employment, and draft the agreement. The placement fee is one month's rent for leases under three years." },
+      { "q": "What if I want to sell instead?", "a": "We will value it honestly and handle the sale — visits, buyers, negotiation and registration — while you join by video call." },
+      { "q": "Do you work outside Pondicherry?", "a": "We cover Pondicherry, Kottakuppam and the areas nearby, including Auroville, Villianur, Ariyankuppam and Lawspet. Anything further we will tell you honestly if we can serve it well." }
+    ] }
+  ]
+}

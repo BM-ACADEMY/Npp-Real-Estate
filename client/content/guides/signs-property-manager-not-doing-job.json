@@ -1,0 +1,112 @@
+{
+  "path": "/guides/signs-property-manager-not-doing-job",
+  "navKey": "guide",
+  "crumb": "Seven Signs Your Property Manager Is Not Doing the Job",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Seven Signs Your Property Manager Is Not Doing the Job",
+  "description": "Late statements, no photos, vague repair bills. Seven warning signs that a property manager in Pondicherry is not looking after your property.",
+  "h1": "Seven signs your property manager is not doing the job",
+  "eyebrow": "Guide",
+  "lead": "Managing property from abroad means trusting someone you cannot see. These are the signs we would look for if we were the owner.",
+  "ogImage": "og-signs-property-manager-not-doing-job.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 7,
+    "group": "For owners living abroad"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/nri-property-management-pondicherry#property-check",
+    "label": "Book my free property check"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "The seven signs",
+      "bullets": [
+        "Statements arrive late, or not at all",
+        "There are no dated photos or videos from recent visits",
+        "Repair bills come without quotes or receipts",
+        "The rent is always “being collected”",
+        "They cannot say when the tenant’s agreement ends",
+        "Your questions get answers that do not answer them",
+        "You have never spoken to the person who actually visits the property"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Why it happens",
+      "paras": [
+        "Most managers who fail are not dishonest. They are overstretched, or the arrangement was never written down, so nobody knows what “looking after it” means. That is why the contract matters as much as the person."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What a good arrangement looks like",
+      "paras": [
+        "A written agreement that lists duties and fees; a monthly report with photos; repairs quoted and approved by you before they are done; every payment receipted; and one named person you can call. Our [management service](/nri-property-management-pondicherry) works this way."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "If you are unsure",
+      "paras": [
+        "Get an independent view. A one-off [property check](/free-rental-audit) tells you the condition of the property and whether the rent is right, whoever manages it now."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Want an independent look at your property?",
+      "p": "We visit, film a walk-through and report in writing. No obligation.",
+      "actions": [
+        {
+          "label": "Book my free property check",
+          "go": "/nri-property-management-pondicherry#property-check",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Manage your property from abroad",
+          "go": "/guides/manage-pondicherry-property-from-abroad"
+        },
+        {
+          "name": "Locked house: what to check every month",
+          "go": "/guides/vacant-house-maintenance-pondicherry"
+        }
+      ]
+    }
+  ]
+}

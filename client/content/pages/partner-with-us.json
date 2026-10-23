@@ -1,0 +1,27 @@
+{
+  "path": "/partner-with-us", "navKey": "partner", "crumb": "Partner",
+  "title": "Real Estate Agent & Promoter Tie-up in Pondicherry",
+  "description": "Agents, brokers, promoters and builders in Pondicherry: co-broking tie-ups, access to our layouts and document verification support.",
+  "h1": "Work With Namma Pondy Properties", "eyebrow": "Partner",
+  "lead": "Most deals in this district die because the two halves never met — one broker has the buyer, another has the property, and neither trusts the other enough to share. We would rather split a commission than lose a deal.",
+  "ogImage": "og-partner.jpg", "schema": ["Service"],
+  "service": { "name": "Work With Namma Pondy Properties", "serviceType": "real estate agent tie-up Pondicherry" },
+  "modified": "2026-10-22",
+  "wa": "Hi, I am an agent/promoter in ___ and I want to discuss a tie-up",
+  "heroActions": [ { "label": "WhatsApp us", "go": "wa", "style": "wa" }, { "label": "Apply for a tie-up", "go": "#partner-apply", "style": "line" } ],
+  "blocks": [
+    { "type": "sec", "h": "What a tie-up with us means", "bullets": [
+      "Co-broking: you bring one side, we bring the other, and the commission is shared on a written understanding",
+      "Access to the [layouts we develop](/our-projects), to offer your own buyers",
+      "Document verification support from our office before a deal goes too far",
+      "For promoters and builders: your project filmed and published on our page",
+      "Partner rates on [reel shoots](/instagram-reel-shoot), and a partners' group for live requirements" ] },
+    { "type": "steps", "h": "How to start", "items": [
+      { "h": "Apply", "d": "Name, area, how long you have been working and what you handle." },
+      { "h": "Meet at our office", "d": "We would rather meet than sign something over the phone." },
+      { "h": "Agree the terms in writing", "d": "Commission share, who does what, how buyers are introduced." },
+      { "h": "Start working deals", "d": "Requirements go into the partners' group as they come in." } ] },
+    { "type": "form", "id": "partner_apply", "h": "Apply for a tie-up" },
+    { "type": "note", "text": "Looking for a lead subscription or a listing account? That is The Plot One, our property platform. This page is for working together on deals." }
+  ]
+}

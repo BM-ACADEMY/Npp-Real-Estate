@@ -1,0 +1,110 @@
+{
+  "path": "/guides/power-of-attorney-property-india-nri",
+  "navKey": "guide",
+  "crumb": "Power of Attorney for Indian Property: What NRIs Should Sign",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Power of Attorney for Indian Property: What NRIs Should Sign",
+  "description": "A power of attorney is the most powerful document you can give someone over your Indian property. How to limit it, where to sign it and what to avoid.",
+  "h1": "Power of attorney for property in India: what NRIs should and should not sign",
+  "eyebrow": "Guide",
+  "lead": "A power of attorney lets someone act for you when you are far away. Signed loosely, it can let them sell or mortgage your property. Signed carefully, it is the most useful tool an owner abroad has.",
+  "ogImage": "og-power-of-attorney-property-india-nri.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 5,
+    "group": "For owners living abroad"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/contact#contact-form",
+    "label": "Talk to our team"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "General or specific",
+      "paras": [
+        "A general power of attorney can cover many acts, including selling. Giving one casually to a relative has cost families their property. A specific power of attorney is limited to a named task, such as completing one sale or dealing with one tenant, and to a stated period."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Rules of thumb",
+      "bullets": [
+        "Name the exact property by survey number and the exact task",
+        "State a period, after which it ends",
+        "Say what the agent must not do: for example, no sale or mortgage without your written consent",
+        "Ask for a copy of every document the agent signs for you",
+        "Revoke it in writing when the task is done"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Signing it abroad",
+      "paras": [
+        "A power of attorney signed outside India generally has to be signed and attested in the way Indian law requires, which often means before the Indian consulate or a notary with the right authentication, and then registered or stamped in India. Requirements change, so confirm with a lawyer before you sign."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Get a lawyer to draft it",
+      "paras": [
+        "This is not a document to copy from the internet. A lawyer who knows Tamil Nadu and Puducherry practice should draft it, and the person you appoint should be someone you can hold to account. We can coordinate with your lawyer for the paperwork here, and the [buying](/buy-property-pondicherry) and [selling](/sell-property-pondicherry) processes can run with you joining by video call."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Selling or buying without being here?",
+      "p": "You can run it by video call with a limited power of attorney. Ask us how.",
+      "actions": [
+        {
+          "label": "Talk to us on WhatsApp",
+          "go": "/contact#contact-form",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Encroachment: protecting a property you cannot visit",
+          "go": "/guides/encroachment-protect-property-nri"
+        },
+        {
+          "name": "Can NRIs buy property in Pondicherry?",
+          "go": "/guides/can-nri-buy-property-pondicherry"
+        }
+      ]
+    }
+  ]
+}

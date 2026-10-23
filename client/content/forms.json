@@ -1,0 +1,455 @@
+{
+  "requirement": {
+    "anchor": "requirement",
+    "form_type": "requirement",
+    "ga_event": "requirement_submit",
+    "title": "Share your requirement",
+    "cta": "Share my requirement",
+    "wa": "Send it on WhatsApp instead",
+    "waMsg": "Hi, I am looking to buy a property in Pondicherry. My budget is ___ and I am looking in ___",
+    "note": "We reply within 2 working hours (10 AM – 7 PM, Monday to Saturday).",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp or phone number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel",
+        "help": "Include your country code if you are outside India."
+      },
+      {
+        "name": "property_type",
+        "label": "What are you looking for",
+        "type": "select",
+        "options": [
+          "House site or plot",
+          "Independent house or villa",
+          "Commercial shop or building",
+          "Farmland or larger parcel",
+          "A plot in one of our layouts"
+        ]
+      },
+      {
+        "name": "area",
+        "label": "Preferred area",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "budget",
+        "label": "Budget",
+        "type": "select",
+        "autocomplete": "off",
+        "options": [
+          "Under ₹25 lakh",
+          "₹25 to 50 lakh",
+          "₹50 lakh to ₹1 crore",
+          "₹1 to 2 crore",
+          "Above ₹2 crore"
+        ]
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "select",
+        "options": [
+          "Own use",
+          "Investment",
+          "Rental income"
+        ]
+      },
+      {
+        "name": "timeline",
+        "label": "When do you want to register",
+        "type": "select",
+        "options": [
+          "Within a month",
+          "One to three months",
+          "Three to six months",
+          "Just exploring"
+        ]
+      }
+    ]
+  },
+  "document_check": {
+    "anchor": "document-check",
+    "form_type": "document_check",
+    "ga_event": "document_check_request",
+    "title": "Send documents for a free check",
+    "cta": "Request my free document check",
+    "wa": "Send the documents on WhatsApp",
+    "waMsg": "Hi, I have found a property and would like the documents checked before I pay an advance.",
+    "note": "After you submit, we reply on WhatsApp and you can send photos or PDFs of the documents there.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp or phone number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel",
+        "help": "Include your country code if you are outside India."
+      },
+      {
+        "name": "property_area",
+        "label": "Where is the property",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "documents_held",
+        "label": "Documents you have",
+        "type": "textarea",
+        "help": "For example: patta, chitta, EC, parent deed, approval."
+      }
+    ]
+  },
+  "valuation": {
+    "anchor": "valuation",
+    "form_type": "valuation",
+    "ga_event": "valuation_request",
+    "title": "Request your valuation",
+    "cta": "Request my free valuation",
+    "wa": "Send it on WhatsApp instead",
+    "waMsg": "Hi, I want a free valuation for my property in ___",
+    "note": "We reply within one working day and visit at a time that suits you or your family.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp or phone number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel",
+        "help": "Include your country code if you are outside India."
+      },
+      {
+        "name": "area",
+        "label": "Property area or street",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "property_type",
+        "label": "Property type",
+        "type": "select",
+        "options": [
+          "House site or plot",
+          "House or villa",
+          "Shop or commercial building",
+          "Farmland",
+          "Other"
+        ]
+      },
+      {
+        "name": "size",
+        "label": "Approximate size",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "price_in_mind",
+        "label": "Price you have in mind (optional)",
+        "type": "text",
+        "autocomplete": "off"
+      }
+    ]
+  },
+  "property_check": {
+    "anchor": "property-check",
+    "form_type": "property_check",
+    "ga_event": "property_check_request",
+    "title": "Claim your free property check",
+    "cta": "Claim my free property check",
+    "wa": "Send it on WhatsApp instead",
+    "waMsg": "Hi, I live in ___ and I want the free property check for my property in ___",
+    "note": "We take on a limited number of new properties each month so every owner gets real attention.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel",
+        "help": "Include your country code, for example +971 or +65."
+      },
+      {
+        "name": "country",
+        "label": "Country you live in",
+        "type": "text",
+        "autocomplete": "country-name"
+      },
+      {
+        "name": "area",
+        "label": "Property area in Pondicherry",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "property_type",
+        "label": "Property type",
+        "type": "select",
+        "options": [
+          "House",
+          "Shop or commercial",
+          "Apartment",
+          "Plot or land",
+          "Other"
+        ]
+      },
+      {
+        "name": "rented_or_vacant",
+        "label": "Rented or vacant",
+        "type": "select",
+        "options": [
+          "Rented",
+          "Vacant",
+          "Partly rented"
+        ]
+      },
+      {
+        "name": "current_rent",
+        "label": "Current monthly rent (if rented)",
+        "type": "text",
+        "autocomplete": "off"
+      }
+    ]
+  },
+  "video_call": {
+    "anchor": "video-call",
+    "form_type": "video_call",
+    "ga_event": "video_call_request",
+    "title": "Schedule a video call",
+    "cta": "Request a video call",
+    "note": "Tell us a day and your local time. We will confirm on WhatsApp and call at your hour.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel",
+        "help": "Include your country code, for example +971 or +65."
+      },
+      {
+        "name": "country",
+        "label": "Country you live in",
+        "type": "text",
+        "autocomplete": "country-name"
+      },
+      {
+        "name": "preferred_day",
+        "label": "Preferred day",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "local_time",
+        "label": "Your local time",
+        "type": "text",
+        "autocomplete": "off",
+        "help": "For example: 8 PM Dubai time."
+      }
+    ]
+  },
+  "project_enquiry": {
+    "anchor": "project-enquiry",
+    "form_type": "project_enquiry",
+    "ga_event": "project_enquiry",
+    "title": "Ask about current projects",
+    "cta": "Ask about current projects",
+    "wa": "Ask on WhatsApp instead",
+    "waMsg": "Hi, I would like to know which of your layouts near Pondicherry are open now.",
+    "note": "We reply within 2 working hours (10 AM – 7 PM, Monday to Saturday).",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp or phone number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel",
+        "help": "Include your country code if you are outside India."
+      },
+      {
+        "name": "budget",
+        "label": "Budget",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "plot_size",
+        "label": "Plot size you want",
+        "type": "text",
+        "autocomplete": "off"
+      }
+    ]
+  },
+  "partner_apply": {
+    "anchor": "partner-apply",
+    "form_type": "partner_apply",
+    "ga_event": "partner_apply",
+    "title": "Apply for a tie-up",
+    "cta": "Apply for a tie-up",
+    "note": "We reply within two working days.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp or phone number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel"
+      },
+      {
+        "name": "firm",
+        "label": "Firm or business name",
+        "type": "text",
+        "autocomplete": "organization"
+      },
+      {
+        "name": "area",
+        "label": "Area you work in",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "years_experience",
+        "label": "Years in real estate",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "rera_number",
+        "label": "RERA number (if any)",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "property_types",
+        "label": "Property types you handle",
+        "type": "text",
+        "autocomplete": "off"
+      }
+    ]
+  },
+  "shoot_booking": {
+    "anchor": "shoot-booking",
+    "form_type": "shoot_booking",
+    "ga_event": "shoot_booking",
+    "title": "Book a shoot date",
+    "cta": "Request a shoot date",
+    "wa": "Book on WhatsApp instead",
+    "waMsg": "Hi, I would like to book a property reel shoot.",
+    "note": "We confirm the date on WhatsApp within one working day.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp or phone number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel"
+      },
+      {
+        "name": "location",
+        "label": "Property location",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "property_type",
+        "label": "Property type",
+        "type": "text",
+        "autocomplete": "off"
+      },
+      {
+        "name": "preferred_dates",
+        "label": "Preferred dates",
+        "type": "text",
+        "autocomplete": "off"
+      }
+    ]
+  },
+  "general_enquiry": {
+    "anchor": "contact-form",
+    "form_type": "general_enquiry",
+    "ga_event": "general_enquiry",
+    "title": "Send us a message",
+    "cta": "Send my message",
+    "note": "We reply within 2 working hours (10 AM – 7 PM, Monday to Saturday).",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "WhatsApp or phone number",
+        "type": "tel",
+        "required": true,
+        "autocomplete": "tel",
+        "help": "Include your country code if you are outside India."
+      },
+      {
+        "name": "message",
+        "label": "How can we help",
+        "type": "textarea"
+      }
+    ]
+  }
+}

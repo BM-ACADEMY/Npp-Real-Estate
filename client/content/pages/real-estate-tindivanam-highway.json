@@ -1,0 +1,167 @@
+{
+  "path": "/real-estate-tindivanam-highway",
+  "navKey": "area",
+  "crumb": "Tindivanam Highway",
+  "title": "Investment Plots on the Tindivanam Highway | Guide",
+  "description": "Investment plots along the Pondicherry–Tindivanam highway: how to judge approach roads, approvals and resale before you buy, and our verification process.",
+  "h1": "Investment Plots on the Tindivanam Highway",
+  "eyebrow": "Area Guide",
+  "lead": "The highway toward Tindivanam is where many of the larger layouts and investment plots sit. It rewards buyers who check the details and punishes those who buy on a promise.",
+  "ogImage": "og-tindivanam-highway.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in investment plots on the Tindivanam highway",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Tindivanam Highway"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "Why investors look here",
+      "paras": [
+        "Larger layouts, easier prices and the pull of a major road make this belt attractive for people who hold land for the longer term. The trade-off is distance from the centre of town, so the real question is what is being built around the plot, not just what is promised."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "How to judge a plot on the highway",
+      "bullets": [
+        "Approach road: a good plot on a bad road is a bad plot",
+        "Approval: confirm the number and the issuing authority, and check it is current",
+        "Frontage and setbacks: highway plots can be subject to restrictions near the road",
+        "Services: water, power and drainage actually in place, not only planned",
+        "Resale: how many plots have really sold, and to whom"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Approved or unapproved",
+      "paras": [
+        "The price difference between an approved and an unapproved layout is the whole story. Unapproved plots can be hard to finance and hard to resell. Our guide on [approved vs unapproved layouts](/guides/approved-vs-unapproved-layout-plot-pondicherry) explains what to ask."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Our own layouts",
+      "paras": [
+        "We develop layouts in this belt ourselves, so we can show you the approval, the parent documents and the ground. See [our layouts](/our-projects) and ask what is open now."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Tindivanam Highway",
+      "items": [
+        {
+          "k": "Looking to buy in Tindivanam Highway",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Tindivanam Highway",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Tindivanam Highway questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Are highway plots a good investment?",
+          "a": "They can be, for buyers willing to hold. Value depends on approvals, approach road and what actually gets built nearby, so verify each of these before buying."
+        },
+        {
+          "q": "Can I get a bank loan for a plot here?",
+          "a": "Approved layouts with clean title can usually be financed. Unapproved plots usually cannot. We tell you early which category a plot falls in."
+        },
+        {
+          "q": "How do I check a layout’s approval?",
+          "a": "Ask for the approval number and issuing authority and have the plan compared with the ground. We do this for every property we show."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Tindivanam Highway property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

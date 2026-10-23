@@ -1,0 +1,117 @@
+{
+  "path": "/guides/documents-to-check-before-buying-plot",
+  "navKey": "guide",
+  "crumb": "Documents to Check Before Buying a Plot in Tamil Nadu",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Documents to Check Before Buying a Plot in Tamil Nadu",
+  "description": "Patta, chitta, encumbrance certificate and parent deeds: what each document proves and what to look for before you pay an advance on a plot.",
+  "h1": "Documents to verify before buying a plot: patta, chitta, EC and parent deeds",
+  "eyebrow": "Guide",
+  "lead": "Most advance money is lost on documents nobody read properly. This is what each document tells you and what to look for.",
+  "ogImage": "og-documents-to-check-before-buying-plot.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 10,
+    "group": "For buyers"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#document-check",
+    "label": "Free document check"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "The sale deed and the parent deeds",
+      "paras": [
+        "The sale deed proves the seller’s purchase. The parent deeds show how the seller got the land, going back through previous owners. The chain should be unbroken, with each transfer between the right people and properly registered."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Patta and chitta",
+      "paras": [
+        "Patta is the record of ownership in the revenue records, and chitta shows the land’s classification and extent. They should be in the seller’s name and match the survey number and area on the deed. A mismatch is a question to resolve before paying, not after."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Encumbrance certificate",
+      "paras": [
+        "The EC shows registered transactions on the property for a period, including mortgages and sales. Ask for one covering many years and check there are no mortgages or other claims you were not told about."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "On the ground",
+      "bullets": [
+        "Measure the plot and compare with the deed",
+        "Check boundaries and the approach road",
+        "Confirm the layout approval, as in our [DTCP vs PPA guide](/guides/dtcp-vs-ppa-approval-pondicherry)",
+        "Ask neighbours who actually uses the land",
+        "Check for any attachment or court case"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Let us look first",
+      "paras": [
+        "We verify every property before we promote it. If you found one elsewhere, our [free document check](/buy-property-pondicherry#document-check) tells you plainly what is clean and what is a risk. You do not have to buy through us."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Before you pay an advance",
+      "p": "Send us the documents. We will tell you what is clean and what is a risk.",
+      "actions": [
+        {
+          "label": "Send documents for a free check",
+          "go": "/buy-property-pondicherry#document-check",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "What a clear title looks like",
+          "go": "/guides/clear-title-property-tamil-nadu"
+        },
+        {
+          "name": "Property registration charges and stamp duty",
+          "go": "/guides/registration-charges-stamp-duty-puducherry"
+        }
+      ]
+    }
+  ]
+}

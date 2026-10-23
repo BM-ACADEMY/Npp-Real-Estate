@@ -1,0 +1,43 @@
+{
+  "path": "/free-property-valuation",
+  "navKey": "valuation",
+  "crumb": "Valuation",
+  "title": "Free Property Valuation in Pondicherry & Kottakuppam",
+  "description": "Know what your Pondicherry property is really worth. Free on-site valuation from recent registrations and local deals, with a written range and the reasoning.",
+  "h1": "Free Property Valuation in Pondicherry",
+  "eyebrow": "Valuation",
+  "lead": "A valuation is not a guess from a phone call. We visit the property, look at the documents, and compare it against what has actually been registered nearby.",
+  "ogImage": "og-valuation.jpg",
+  "schema": ["Service"],
+  "service": { "name": "Free Property Valuation in Pondicherry", "serviceType": "property valuation Pondicherry" },
+  "modified": "2026-10-22",
+  "wa": "Hi, I want a free valuation for my property in ___",
+  "heroActions": [
+    { "label": "WhatsApp us", "go": "wa", "style": "wa" },
+    { "label": "Request my free valuation", "go": "#valuation", "style": "line" }
+  ],
+  "blocks": [
+    { "type": "sec", "h": "What the valuation includes",
+      "bullets": [
+        "A price range your property can realistically fetch today, with the reasoning written out",
+        "Recent comparable transactions in your area",
+        "Guideline value versus market value, and what the gap means for you",
+        "What is pulling your price down and what is worth fixing before you list",
+        "An honest view of how long a sale is likely to take at each price point"
+      ] },
+    { "type": "sec", "h": "Who asks us for one",
+      "bullets": [
+        "Owners deciding whether to sell this year or wait",
+        "Families dividing property between siblings who need a fair number",
+        "Owners abroad who have not seen their property in years",
+        "Buyers who want to know if the asking price is reasonable before negotiating"
+      ],
+      "paras": ["Thinking of selling afterwards? See [how selling works](/sell-property-pondicherry) and our [Kottakuppam area guide](/real-estate-kottakuppam)."] },
+    { "type": "form", "id": "valuation", "h": "Request your valuation" },
+    { "type": "faq", "h": "About valuations", "id": "faq", "items": [
+      { "q": "Is it really free?", "a": "Yes. We do not charge for the valuation and you are under no obligation to sell through us." },
+      { "q": "Will you just quote a low price to get a quick sale?", "a": "A valuation that gets your property sold cheap earns us less, not more — our fee is a percentage. We give you the range and the evidence behind it; the asking price is your decision." },
+      { "q": "Can you value a property I inherited and have not seen?", "a": "Yes. We visit, photograph and video the property, check the current document position and send everything to you wherever you are." }
+    ] }
+  ]
+}

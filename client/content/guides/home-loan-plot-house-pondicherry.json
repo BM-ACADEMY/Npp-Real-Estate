@@ -1,0 +1,110 @@
+{
+  "path": "/guides/home-loan-plot-house-pondicherry",
+  "navKey": "guide",
+  "crumb": "Home Loan Checklist for a Plot or House Near Pondicherry",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Home Loan Checklist for a Plot or House Near Pondicherry",
+  "description": "Banks check the property as hard as they check you. A checklist of what lenders look at for plots and houses in and around Pondicherry.",
+  "h1": "Home loan checklist for plot and house purchases near Pondicherry",
+  "eyebrow": "Guide",
+  "lead": "A loan can fall through after you have paid an advance, usually because of the property rather than the buyer. Check these before you commit.",
+  "ogImage": "og-home-loan-plot-house-pondicherry.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 15,
+    "group": "For buyers"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Share my requirement"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What lenders look at",
+      "bullets": [
+        "Approved layout or building plan",
+        "Clear, marketable title with an unbroken chain of deeds",
+        "Encumbrance certificate with no existing charge",
+        "Land use that allows what you plan to build",
+        "Valuation that supports the loan amount"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What you bring",
+      "paras": [
+        "Identity, address and income documents, bank statements and tax filings. Lenders differ in what they ask, so check with the bank early, and ask about the rules for a plot loan versus a construction loan."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Why unapproved plots struggle",
+      "paras": [
+        "Many banks do not lend on unapproved layouts. If you plan to finance, confirm the [approval](/guides/dtcp-vs-ppa-approval-pondicherry) first. Our [document check](/buy-property-pondicherry#document-check) is free."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Time it right",
+      "paras": [
+        "Ask the bank for a legal and technical opinion before paying more than a token advance, and keep the sale agreement conditional on the loan where possible."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Planning to finance a purchase?",
+      "p": "Share your budget and we will shortlist only properties a lender is likely to accept.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Documents to check before buying a plot",
+          "go": "/guides/documents-to-check-before-buying-plot"
+        },
+        {
+          "name": "Registration charges and stamp duty",
+          "go": "/guides/registration-charges-stamp-duty-puducherry"
+        }
+      ]
+    }
+  ]
+}

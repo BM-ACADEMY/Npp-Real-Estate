@@ -1,0 +1,168 @@
+{
+  "path": "/real-estate-villianur",
+  "navKey": "area",
+  "crumb": "Villianur",
+  "title": "Plots in Villianur | Land for Sale & Property Guide",
+  "description": "Looking for an affordable plot in Villianur? What drives prices, which approvals to confirm, and how we verify layouts before you pay anything.",
+  "h1": "Plots in Villianur, Pondicherry",
+  "eyebrow": "Area Guide",
+  "lead": "Villianur sits west of the town centre, toward Villupuram. It is where buyers look when budgets are tighter and they still want to be close to Pondicherry.",
+  "ogImage": "og-villianur.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in plots in Villianur",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Villianur"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "It is a commuter belt with a mix of older village streets and newer layouts. Prices are generally easier than in the centre of town, which brings first-time buyers and small investors.",
+        "New layouts appear quickly here, and quality varies a lot between them."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who buys in Villianur",
+      "bullets": [
+        "First-time buyers building their own house",
+        "Families who want more land for the money",
+        "Investors buying a few plots to hold",
+        "Buyers comparing it with the Tindivanam highway belt"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check before buying",
+      "paras": [
+        "Do not judge a layout by its brochure. Confirm the approval number and who issued it, that the roads shown are really laid and the width matches the plan, and that drainage and water are actually provided.",
+        "Check the parent documents back through the previous owners, the encumbrance certificate and the patta. Then walk the plot with the layout plan and check boundary marking. We do this before showing you anything."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Our layouts nearby",
+      "paras": [
+        "If you would rather buy a plot from a layout we have developed ourselves, see [our layouts](/our-projects) and ask what is open now."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Villianur",
+      "items": [
+        {
+          "k": "Looking to buy in Villianur",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Villianur",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Villianur questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Are plots in Villianur cheaper than in town?",
+          "a": "Generally yes, which is why many first-time buyers look here. Price still depends on the road, the approval status and how close the plot is to a main road, so compare each plot on its own."
+        },
+        {
+          "q": "How do I know a layout is approved?",
+          "a": "Ask for the approval number and the issuing authority, then check that the layout on the ground matches the approved plan. We verify this for every property we show."
+        },
+        {
+          "q": "Can you arrange a site visit?",
+          "a": "Yes. We arrange visits with pickup from Pondicherry town and show only plots whose documents we have already checked."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Villianur property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

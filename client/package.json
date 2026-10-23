@@ -1,0 +1,24 @@
+{
+  "name": "npp-client",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Namma Pondy Properties — React frontend, prerendered to static HTML per route",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.js",
+    "build:prod": "node scripts/build.js --prod",
+    "verify": "node scripts/verify.cjs",
+    "verify:prod": "node scripts/verify.cjs --prod",
+    "seo-audit": "node scripts/seo-audit.cjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.1.4",
+    "vite": "7.3.7"
+  },
+  "engines": { "node": ">=20.19" }
+}

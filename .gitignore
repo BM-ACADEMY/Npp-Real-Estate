@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+
+# build output (rebuild with: cd client && npm run build)
+client/dist/
+client/.ssr/
+
+# saved enquiries — private customer data, never commit
+server/data/
+
+# previous version kept locally for reference
+old/
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,48 @@
+{
+  "path": "/free-rental-audit",
+  "navKey": "audit",
+  "crumb": "Free Rental Audit",
+  "title": "Free Rental Audit & Property Check | Pondicherry",
+  "description": "Find out if your Pondicherry property is under-earning. We visit, film a walk-through and send a written report in 3 working days. Free for owners abroad.",
+  "h1": "Free Rental Audit and Property Check for Owners Abroad",
+  "eyebrow": "Free Rental Audit",
+  "lead": "You cannot fix what you cannot see. We visit your property in Pondicherry or Kottakuppam, film every room or unit, check the rent against what the street is paying now, and send you a written report in three working days.",
+  "ogImage": "og-audit.jpg",
+  "schema": ["Service"],
+  "service": { "name": "Free Rental Audit and Property Check for Owners Abroad", "serviceType": "rental audit Pondicherry" },
+  "modified": "2026-10-22",
+  "wa": "Hi, I live in ___ and I want the free property check for my property in ___",
+  "heroActions": [
+    { "label": "WhatsApp us", "go": "wa", "style": "wa" },
+    { "label": "Claim my free property check", "go": "#property-check", "style": "line" }
+  ],
+  "blocks": [
+    { "type": "sec", "h": "What we check",
+      "bullets": [
+        "The rent each unit is paying against current market rent on the same street",
+        "The rental agreement — term, escalation clause, expiry, deposit held",
+        "Payment history and any outstanding dues",
+        "Condition: leaks, damp, wiring, paint, doors, security, water supply",
+        "Pending property tax, electricity and water bills",
+        "Vacancy, and what is keeping a unit empty"
+      ] },
+    { "type": "sec", "h": "What you receive",
+      "bullets": [
+        "A full walk-through video of the property as it stands today",
+        "A written Property Health Report with the rent gap stated in rupees",
+        "A 90-day action plan, in the order the work should be done",
+        "Our honest view on whether to hold, re-let at a revised rent, or sell"
+      ] },
+    { "type": "sec", "h": "Why we do this free",
+      "paras": [
+        "Because owners abroad have been promised things by phone for years and have no reason to trust another promise. The report is yours whether or not you engage us. We earn only if you ask us to fix what it finds.",
+        "If you then want us to look after the property, see our [NRI property management service](/nri-property-management-pondicherry), or read the guide to [managing a Pondicherry property from abroad](/guides/manage-pondicherry-property-from-abroad)."
+      ] },
+    { "type": "form", "id": "property_check", "h": "Claim your free property check" },
+    { "type": "faq", "h": "About the audit", "id": "faq", "items": [
+      { "q": "Do I have to be in India?", "a": "No. That is the point of it. We coordinate access with whoever holds the key, and everything comes to you on WhatsApp and email." },
+      { "q": "How long does it take?", "a": "The visit is arranged within a few days of your request, and the written report follows within three working days of the visit." },
+      { "q": "Is there any obligation after the report?", "a": "None. If you choose to engage us, management is 10% of the rent we collect plus GST." }
+    ] }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "path": "/real-estate-kalapet",
+  "navKey": "area",
+  "crumb": "Kalapet and ECR",
+  "title": "Property in Kalapet & ECR Pondicherry | Land Guide",
+  "description": "Land and houses around Kalapet and the East Coast Road: coastal rules to check, rental demand, and how we verify before you buy or let.",
+  "h1": "Property in Kalapet and the ECR Belt",
+  "eyebrow": "Area Guide",
+  "lead": "Kalapet and the coastal stretch of the East Coast Road combine beach, a university area and steady rental demand. They also bring rules that inland plots do not have.",
+  "ogImage": "og-kalapet.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in property in Kalapet / ECR",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Kalapet and ECR"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "The belt runs along the coast north of town and is known for the university area and for people who want to live near the sea. Demand comes from long-stay renters, staff and students, and from buyers who want a coastal home."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who buys here",
+      "bullets": [
+        "Buyers wanting a house near the sea",
+        "Investors looking at rental income from long-stay tenants",
+        "Families buying near education institutions",
+        "Owners abroad holding coastal property they rarely see"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "The coastal rules matter",
+      "paras": [
+        "Land close to the shoreline can fall under coastal regulation rules that limit what can be built and how far from the sea. Confirm the plot’s status with the relevant authority and have it written into the sale papers, rather than relying on what a seller says.",
+        "Salt air, damp and monsoon storms also wear buildings faster here, so the condition of an existing house deserves a proper inspection."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Owning here from abroad",
+      "paras": [
+        "Coastal houses are the ones that suffer most when left empty. Our [property management](/nri-property-management-pondicherry) includes monthly visits with photographs, and the [free rental audit](/free-rental-audit) shows what your property earns against what it could."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Kalapet and ECR",
+      "items": [
+        {
+          "k": "Looking to buy in Kalapet and ECR",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Kalapet and ECR",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Kalapet and ECR questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Are there building limits near the beach?",
+          "a": "Land near the shoreline can be subject to coastal regulation rules. Always confirm the plot’s status with the relevant authority before paying an advance."
+        },
+        {
+          "q": "Is rental demand good around Kalapet?",
+          "a": "Long-stay tenants, university staff and visitors create steady demand, but rent depends heavily on the specific house and street. Our rental audit compares your property with nearby asking rents."
+        },
+        {
+          "q": "Can you look after a coastal house for me?",
+          "a": "Yes. Coastal houses need monthly visits for damp, termites and storm damage, which is part of our management service."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Kalapet and ECR property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

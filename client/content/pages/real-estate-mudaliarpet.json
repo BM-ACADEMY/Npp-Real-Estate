@@ -1,0 +1,160 @@
+{
+  "path": "/real-estate-mudaliarpet",
+  "navKey": "area",
+  "crumb": "Mudaliarpet",
+  "title": "Property in Mudaliarpet Pondicherry | Houses & Plots",
+  "description": "Houses and plots in Mudaliarpet, south of the town centre: who buys here, what to check on drainage and documents, and how we help owners.",
+  "h1": "Property in Mudaliarpet, Pondicherry",
+  "eyebrow": "Area Guide",
+  "lead": "Mudaliarpet lies south of the town centre and attracts both local families and buyers who want to stay close to the coast road.",
+  "ogImage": "og-mudaliarpet.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in property in Mudaliarpet",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Mudaliarpet"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "It is a mixed area of established streets and newer houses, with easy access toward the coast road and the rest of town. Demand is mostly local families and small investors."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who deals in Mudaliarpet property",
+      "bullets": [
+        "Local families buying or upgrading a house",
+        "Small investors buying plots",
+        "Owners abroad holding family houses",
+        "Buyers who want to be near the coast without paying coastal prices"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check",
+      "paras": [
+        "As in other low-lying parts of the coast, ask about water standing in the street after heavy rain and where drainage goes. Then check the approval, patta and chitta, encumbrance certificate and parent documents.",
+        "For owners: a house left empty here deteriorates in the humid climate. Our [property management](/nri-property-management-pondicherry) includes monthly visits with photographs."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Mudaliarpet",
+      "items": [
+        {
+          "k": "Looking to buy in Mudaliarpet",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Mudaliarpet",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Mudaliarpet questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Is Mudaliarpet prone to waterlogging?",
+          "a": "Some low-lying streets can hold water in heavy rain. We ask residents and visit in wet weather where possible before recommending a property."
+        },
+        {
+          "q": "Can you value my house in Mudaliarpet?",
+          "a": "Yes. Our free valuation compares recent registered deals and current asking prices for similar properties nearby."
+        },
+        {
+          "q": "Do you manage rented houses here?",
+          "a": "Yes. We collect rent, handle repairs and send a monthly report for owners living abroad."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Mudaliarpet property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        }
+      ]
+    }
+  ]
+}

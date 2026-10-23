@@ -1,0 +1,109 @@
+{
+  "path": "/guides/dtcp-vs-ppa-approval-pondicherry",
+  "navKey": "guide",
+  "crumb": "DTCP vs PPA Approval: What Pondicherry Plot Buyers Check",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "DTCP vs PPA Approval: What Pondicherry Plot Buyers Check",
+  "description": "DTCP and PPA are the two approvals you will hear about when buying a plot near Pondicherry. What each means and how to confirm an approval is real.",
+  "h1": "DTCP vs PPA approval: what every Pondicherry plot buyer must check",
+  "eyebrow": "Guide",
+  "lead": "Plot sellers around Pondicherry quote approvals as if they are all the same. They are not. Which authority approved a layout depends on where it sits.",
+  "ogImage": "og-dtcp-vs-ppa-approval-pondicherry.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 9,
+    "group": "For buyers"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#document-check",
+    "label": "Free document check"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "Two authorities, two sides of a border",
+      "paras": [
+        "DTCP is Tamil Nadu’s Directorate of Town and Country Planning. PPA is the Puducherry Planning Authority. Land on the Tamil Nadu side, such as around [Kottakuppam](/real-estate-kottakuppam), follows one system and land in Puducherry follows another. Confirm which side the plot is on before you look at anything else."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to ask for",
+      "bullets": [
+        "The approval number and the name of the authority that issued it",
+        "The approved layout plan, to compare with the plots on the ground",
+        "Confirmation that the approval is current and covers the plot you are buying",
+        "Proof that roads and open spaces shown in the plan exist and are not being sold as plots"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Why the approval matters",
+      "paras": [
+        "Banks generally lend on approved plots. Resale is easier. Building plans can be sanctioned. An unapproved plot may be cheaper, but it can cost far more later. Read our guide on [approved and unapproved layouts](/guides/approved-vs-unapproved-layout-plot-pondicherry)."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Verify, do not trust",
+      "paras": [
+        "A number on a brochure is not proof. Our [document check](/buy-property-pondicherry#document-check) confirms the approval with the issuing authority before you pay an advance."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Found a plot? Get the approval checked free",
+      "p": "Send us the approval number and documents before you pay anything.",
+      "actions": [
+        {
+          "label": "Send documents for a free check",
+          "go": "/buy-property-pondicherry#document-check",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Documents to verify before buying a plot",
+          "go": "/guides/documents-to-check-before-buying-plot"
+        },
+        {
+          "name": "Tamil Nadu side or Puducherry side?",
+          "go": "/guides/tamil-nadu-vs-puducherry-border-property"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "path": "/guides/shop-rent-pondicherry",
+  "navKey": "guide",
+  "crumb": "How Much Rent Should Your Pondicherry Shop Earn?",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "How Much Rent Should Your Pondicherry Shop Earn?",
+  "description": "Shop rent depends on frontage, footfall, floor and parking. How to estimate what your shop should earn and when to revise it.",
+  "h1": "How much rent should your Pondicherry shop earn? A practical way to estimate",
+  "eyebrow": "Guide",
+  "lead": "There is no single rate per sq ft. Two shops on the same road can earn very different rents.",
+  "ogImage": "og-shop-rent-pondicherry.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 19,
+    "group": "For landlords"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/free-rental-audit#property-check",
+    "label": "Free rental audit"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What drives shop rent",
+      "bullets": [
+        "Frontage and visibility from the road",
+        "Footfall and the type of street",
+        "Ground floor versus upper floor",
+        "Parking and access",
+        "Size and shape of the unit",
+        "What the neighbouring businesses are like"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "How to estimate",
+      "paras": [
+        "Collect asking rents for similar shops on the same road and the next one over. Ask local brokers what actually closed, not only what was quoted. Compare with your own rent and with how long your shop would stay vacant if it was re-let."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "When to revise",
+      "paras": [
+        "At renewal, and through an escalation clause between renewals. See [commercial rent: are you undercharging?](/guides/commercial-rent-pondicherry-undercharging)."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Get a figure for your shop",
+      "paras": [
+        "Our [free rental audit](/free-rental-audit) compares your shop with similar ones nearby."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "What should your shop earn?",
+      "p": "Request a free rental audit.",
+      "actions": [
+        {
+          "label": "Request my free rental audit",
+          "go": "/free-rental-audit#property-check",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Commercial rent: are you undercharging?",
+          "go": "/guides/commercial-rent-pondicherry-undercharging"
+        },
+        {
+          "name": "Rental agreement checklist",
+          "go": "/guides/rental-agreement-checklist-nri-landlord"
+        }
+      ]
+    }
+  ]
+}

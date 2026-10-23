@@ -1,0 +1,167 @@
+{
+  "path": "/real-estate-lawspet",
+  "navKey": "area",
+  "crumb": "Lawspet",
+  "title": "Property in Lawspet Pondicherry | Houses & Plots",
+  "description": "Buying or selling a house or plot in Lawspet: who looks here, what to check on approvals and building plans, and how we handle the sale.",
+  "h1": "Property in Lawspet, Pondicherry",
+  "eyebrow": "Area Guide",
+  "lead": "Lawspet is an established residential part of Pondicherry. It is a place where families buy to live, which makes resale steadier than in newer, speculative areas.",
+  "ogImage": "og-lawspet.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in property in Lawspet, Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Lawspet"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "It is a settled neighbourhood with schools, clinics and daily shopping close by, and road access into the centre of town. Demand comes mainly from families who want a house in a proper residential setting."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who buys in Lawspet",
+      "bullets": [
+        "Families moving up from a rented flat to their own house",
+        "People who work in town and want a quieter address",
+        "Owners abroad buying a home for their parents",
+        "Buyers purchasing a house to let out"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check before buying",
+      "paras": [
+        "For a house, ask for the building approval and completion papers and compare them with what is actually built. Extra floors and enclosed setbacks are common and can cause trouble with banks and at resale.",
+        "For a plot, confirm the layout approval, the road width and the patta in the seller’s name. Our [buyer service](/buy-property-pondicherry) includes a document check before you pay any advance."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Selling in Lawspet",
+      "paras": [
+        "Houses sell best when the documents are ready and the asking price is realistic. A [free valuation](/free-property-valuation) tells you where to start, and we prepare the paperwork before buyers visit."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Lawspet",
+      "items": [
+        {
+          "k": "Looking to buy in Lawspet",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Lawspet",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Lawspet questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Is Lawspet a good area for families?",
+          "a": "It is an established residential area, which is why many families buy here to live. The right street still matters, so we compare specific properties rather than recommend an area in general."
+        },
+        {
+          "q": "What papers should a Lawspet house have?",
+          "a": "The sale deed, patta, building approval, completion papers, latest property tax receipt and an encumbrance certificate. We verify these before you pay an advance."
+        },
+        {
+          "q": "Will a bank lend on a house here?",
+          "a": "Banks lend on houses with clean title and proper approvals. We tell you early if something is likely to be refused."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Lawspet property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Reddiarpalayam",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

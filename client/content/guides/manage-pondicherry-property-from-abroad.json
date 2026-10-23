@@ -1,0 +1,110 @@
+{
+  "path": "/guides/manage-pondicherry-property-from-abroad",
+  "navKey": "guide",
+  "crumb": "Manage property from abroad",
+  "title": "How to Manage Your Pondicherry Property From Abroad",
+  "description": "A practical guide for NRIs from Pondicherry and Kottakuppam: tenants, rent, TDS, maintenance and what to check before handing anyone your keys.",
+  "h1": "How to Manage Your Pondicherry Property From Abroad",
+  "eyebrow": "Guide",
+  "lead": "If you own a house or a shop in Pondicherry and live in Dubai, Singapore or Paris, the hard part is not the property. It is the distance between a problem happening and you hearing about it.",
+  "ogImage": "og-guide.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-09-24",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 1,
+    "group": "For owners living abroad"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I want the free property check for my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "1. Decide who is actually responsible",
+      "paras": [
+        "The most common arrangement — a relative who 'keeps an eye on it' — is also the most fragile, because nobody wants to invoice family and nobody wants to complain about family. Whether you appoint a professional manager or a relative, write down who is responsible for rent, repairs, bills and keys. The relationship survives longer when the roles are explicit."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "2. Get the agreement right before the tenant moves in",
+      "paras": [
+        "A rental agreement that runs for eleven months with no escalation clause is how rents stay frozen for a decade. Set the term, the annual escalation, the notice period, the deposit and who pays for what repairs. Register the agreement where the term warrants it."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "3. Understand TDS on rent before it becomes a problem",
+      "paras": [
+        "Rent paid to an NRI is subject to tax deducted at source by the tenant, deposited against your PAN. Many tenants of NRI landlords do not know this, and the gap surfaces years later. Agree it in writing at the start and keep the certificates filed. A chartered accountant should confirm the current rates and your filing position — this is not advice we are qualified to give."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "4. Do not leave a house locked and unvisited",
+      "paras": [
+        "An empty house in this climate deteriorates faster than most owners expect — damp, termites, blocked drains and a garden that swallows the compound wall. Empty properties also attract encroachment and unauthorised occupation, which is far harder to reverse than to prevent. Somebody should physically enter the property every month and send you photographs."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "5. Keep the paper trail where you can reach it",
+      "bullets": [
+        "Sale deed, patta, chitta and the latest encumbrance certificate",
+        "Property tax receipts for every year",
+        "The current rental agreement and TDS certificates",
+        "Photographs of the property with a date, taken monthly",
+        "A written record of every repair and what it cost"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "6. Be careful with power of attorney",
+      "paras": [
+        "A general power of attorney granting the power to sell is a serious instrument, and giving one casually to a relative has cost families their property. Use a specific power of attorney, limited to the transaction and the period you intend, executed and attested properly at the Indian consulate where you live. Have a lawyer draft it."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Not sure what condition your property is in right now?",
+      "p": "We will visit, film a full walk-through, check the rent against the market and send you a written report in three working days. Free, and yours whether or not you engage us.",
+      "actions": [
+        {
+          "label": "Book my free property check",
+          "go": "/nri-property-management-pondicherry#property-check",
+          "style": "bloom"
+        },
+        {
+          "label": "See the free rental audit",
+          "go": "/free-rental-audit",
+          "style": "line"
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "href": "/nri-property-management-pondicherry#property-check",
+    "label": "Book my free property check"
+  },
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ]
+}

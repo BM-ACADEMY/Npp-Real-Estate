@@ -1,0 +1,106 @@
+{
+  "path": "/guides/can-nri-buy-property-pondicherry",
+  "navKey": "guide",
+  "crumb": "Can NRIs Buy Property in Pondicherry? Rules and Paperwork",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Can NRIs Buy Property in Pondicherry? Rules and Paperwork",
+  "description": "Can an NRI buy a plot, house or shop in Pondicherry? What is allowed, what is not, how to pay and how to complete the purchase from abroad.",
+  "h1": "Can NRIs buy property in Pondicherry? Rules, limits and paperwork",
+  "eyebrow": "Guide",
+  "lead": "Yes, with limits. NRIs and persons of Indian origin can buy residential and commercial property in India, but not every kind of land.",
+  "ogImage": "og-can-nri-buy-property-pondicherry.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 8,
+    "group": "For owners living abroad"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Share my requirement"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What you can and cannot buy",
+      "paras": [
+        "NRIs and persons of Indian origin can buy residential and commercial property. They cannot buy agricultural land, plantations or farmhouses; those can generally be inherited but not purchased. Foreign nationals who are not of Indian origin face stricter rules. Confirm your own category with a lawyer."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "How to pay",
+      "paras": [
+        "Payment is normally made through banking channels from an NRE or NRO account or by inward remittance, not in cash. Keep every bank record, because you will need it to prove the source of funds and, later, when selling."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Completing it from abroad",
+      "paras": [
+        "You can complete a purchase by video call and, if needed, a limited power of attorney. The documents still need to be checked properly before you pay anything, which is the part people skip when they are far away. See our [buyer service](/buy-property-pondicherry), including the [free document check](/buy-property-pondicherry#document-check)."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Tax and later",
+      "paras": [
+        "Buying is one thing; the tax on rent, and on a future sale, is another. Take advice from a chartered accountant before you buy, and read our guide on [NRI rent and TDS](/guides/nri-rent-tds-india-nro-account)."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Buying from abroad?",
+      "p": "Tell us your budget and area. We search, verify and shortlist, and you join by video call.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Documents to verify before buying a plot",
+          "go": "/guides/documents-to-check-before-buying-plot"
+        },
+        {
+          "name": "Power of attorney: what NRIs should sign",
+          "go": "/guides/power-of-attorney-property-india-nri"
+        }
+      ]
+    }
+  ]
+}

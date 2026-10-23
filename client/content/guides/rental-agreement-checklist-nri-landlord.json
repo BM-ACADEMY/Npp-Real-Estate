@@ -1,0 +1,118 @@
+{
+  "path": "/guides/rental-agreement-checklist-nri-landlord",
+  "navKey": "guide",
+  "crumb": "Rental Agreement Checklist for Owners Living Overseas",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Rental Agreement Checklist for Owners Living Overseas",
+  "description": "What a rental agreement for a Pondicherry property must say when the owner lives abroad: term, escalation, deposit, repairs, notice and tax.",
+  "h1": "Rental agreement checklist for owners living overseas",
+  "eyebrow": "Guide",
+  "lead": "The agreement you sign on day one decides what the property earns for years. For an owner who is not there to renegotiate in person, it is the only protection you have.",
+  "ogImage": "og-rental-agreement-checklist-nri-landlord.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 4,
+    "group": "For owners living abroad"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/nri-property-management-pondicherry#property-check",
+    "label": "Book my free property check"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "The terms that matter",
+      "bullets": [
+        "Term and renewal: how long, and how renewal works",
+        "Annual escalation: a fixed percentage, written down",
+        "Deposit: the amount, who holds it, and how it is returned",
+        "Notice period for both sides",
+        "Use of the property: residential or commercial, and no subletting without written consent",
+        "Who pays for what repairs, and the limit above which the owner must approve"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Escalation is where owners lose money",
+      "paras": [
+        "An eleven-month agreement with no escalation clause is how rents stay frozen for a decade. Put the annual increase in the agreement, and where it is a longer lease, a review clause. If you do not know what the market pays, a [rental audit](/free-rental-audit) will tell you."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Registration",
+      "paras": [
+        "Whether an agreement needs registering depends on its term and local rules, and registration affects how well it holds up in a dispute. Ask a lawyer or the sub-registrar’s office what applies to your lease and do not skip it for a longer tenancy."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Tax and payment",
+      "paras": [
+        "Say how rent is paid, from which account, and what happens with tax deducted at source. Our guide on [NRI rent and TDS](/guides/nri-rent-tds-india-nro-account) explains the basics. A CA should confirm the current position."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Keep the originals safe",
+      "paras": [
+        "Hold a scanned copy yourself, with the tenant’s identity documents and a dated photo record of the property at move-in. If you use a manager, the [management agreement](/nri-property-management-pondicherry) should be just as clear."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Want someone to check your agreement against the market?",
+      "p": "Send us your current agreement and rent. We will tell you what is missing.",
+      "actions": [
+        {
+          "label": "Book my free property check",
+          "go": "/nri-property-management-pondicherry#property-check",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Commercial rent: are you undercharging?",
+          "go": "/guides/commercial-rent-pondicherry-undercharging"
+        },
+        {
+          "name": "Power of attorney: what NRIs should sign",
+          "go": "/guides/power-of-attorney-property-india-nri"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "path": "/guides/tamil-nadu-vs-puducherry-border-property",
+  "navKey": "guide",
+  "crumb": "Tamil Nadu Side or Puducherry Side? Border Property Compared",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Tamil Nadu Side or Puducherry Side? Border Property Compared",
+  "description": "Property just across the Pondicherry border can cost less but follows different rules. What changes between Kottakuppam and Puducherry proper.",
+  "h1": "Tamil Nadu side or Puducherry side: how to compare border property",
+  "eyebrow": "Guide",
+  "lead": "Around Pondicherry, a few hundred metres can put a plot in a different administration. The price per sq ft is only part of the comparison.",
+  "ogImage": "og-tamil-nadu-vs-puducherry-border-property.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 16,
+    "group": "For buyers"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Share my requirement"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "Different systems",
+      "paras": [
+        "Land in Puducherry and land in Tamil Nadu districts around it follow different planning authorities, registration rules and, often, different rates for stamp duty and registration. Check which side the property is on before comparing."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to compare",
+      "bullets": [
+        "Total cost including registration, not only the price",
+        "Approving authority and approval status (see [DTCP vs PPA](/guides/dtcp-vs-ppa-approval-pondicherry))",
+        "Roads, water and drainage",
+        "Distance to town, schools and the highway",
+        "Resale demand and who buys in that area"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Kottakuppam as an example",
+      "paras": [
+        "Kottakuppam is popular with buyers who want to be close to Pondicherry on the Tamil Nadu side. See our [Kottakuppam guide](/real-estate-kottakuppam) for what we see there."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Get a side-by-side",
+      "paras": [
+        "Tell us two or three options. We will compare them on cost, approval and documents."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Torn between two locations?",
+      "p": "We will compare them for you, free.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "DTCP vs PPA approval",
+          "go": "/guides/dtcp-vs-ppa-approval-pondicherry"
+        },
+        {
+          "name": "Registration charges and stamp duty",
+          "go": "/guides/registration-charges-stamp-duty-puducherry"
+        }
+      ]
+    }
+  ]
+}

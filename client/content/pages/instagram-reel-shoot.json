@@ -1,0 +1,30 @@
+{
+  "path": "/instagram-reel-shoot", "navKey": "reel", "crumb": "Reel Shoot",
+  "title": "Property Video Shoot & Reel Promotion in Pondicherry",
+  "description": "Get your property professionally filmed and published to 13,000+ local followers on @realestate_withkamar. Shoot, edited reel and collab post for Rs 4,500.",
+  "h1": "Get Your Property Filmed and Published to 13,000+ Local Followers", "eyebrow": "Reel Shoot",
+  "lead": "A property that photographs badly sits unsold. We shoot it properly, cut it into a reel that people actually watch, and publish it to an audience that is already looking for property in this district.",
+  "ogImage": "og-reel.jpg", "schema": ["Service"],
+  "service": { "name": "Get Your Property Filmed and Published to 13,000+ Local Followers", "serviceType": "property video shoot Pondicherry" },
+  "modified": "2026-10-22",
+  "wa": "Hi, I want a reel shoot for my property in ___",
+  "heroActions": [ { "label": "WhatsApp us", "go": "wa", "style": "wa" }, { "label": "Book a shoot date", "go": "#shoot-booking", "style": "line" } ],
+  "blocks": [
+    { "type": "stats", "items": [
+      { "v": "5 lakh+", "l": "views in the last 30 days" }, { "v": "1.89 lakh", "l": "accounts reached" },
+      { "v": "82%", "l": "of views from non-followers" }, { "v": "1.6 lakh", "l": "views on our top reel" } ] },
+    { "type": "note", "text": "Instagram Insights, 26 June to 25 July 2026. Figures are refreshed monthly." },
+    { "type": "sec", "h": "What is included", "bullets": [
+      "An on-site shoot at your property, planned around the light",
+      "An edited reel with music, captions and your contact details",
+      "Published on @realestate_withkamar as an Instagram Collab post, so it appears on your profile too",
+      "A story share on the day it goes live",
+      "The raw footage and the final cut sent to you to use anywhere else" ] },
+    { "type": "table", "h": "What it costs", "cols": ["Plan", "What you get", "Price"], "rows": [
+      ["Reel shoot and publish — inside Pondicherry", "Shoot, edited reel, collab post, story share", "₹4,500"],
+      ["Reel shoot and publish — outside Pondicherry", "The same, with travel included", "On request"] ] },
+    { "type": "sec", "h": "What is not included", "paras": ["Paid advertising and any promise of leads. We film and publish; the reel does the rest on its own reach. If you want an ad campaign behind it, we will tell you honestly what that would cost separately."] },
+    { "type": "form", "id": "shoot_booking", "h": "Book a shoot date" },
+    { "type": "note", "text": "We film only properties whose documents we have seen — it protects the page and the people who watch it." }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "path": "/guides/property-reel-what-gets-watched",
+  "navKey": "guide",
+  "crumb": "What Makes a Property Reel Get Watched and Shared",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "What Makes a Property Reel Get Watched and Shared",
+  "description": "A property video is watched or skipped in seconds. What the opening, framing and ending of a good property reel have in common.",
+  "h1": "What makes a property reel get watched: opening, framing and ending",
+  "eyebrow": "Guide",
+  "lead": "Most property videos lose viewers in the first seconds. The ones that hold attention follow a few simple habits.",
+  "ogImage": "og-property-reel-what-gets-watched.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 23,
+    "group": "For agents and promoters"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/instagram-reel-shoot#shoot-booking",
+    "label": "Book a shoot"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "Open with the best thing",
+      "paras": [
+        "Start with the view, the entrance or the feature a buyer cares about, not with a logo or a long intro."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Keep it steady and short",
+      "bullets": [
+        "Shoot in good daylight",
+        "Move slowly and keep the camera stable",
+        "Show the approach, then the space, then the detail",
+        "Keep it short enough to finish"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Say who, where and how much",
+      "paras": [
+        "Give the location, size and a way to enquire in the video or caption. Viewers who like it should know what to do next."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "We shoot them",
+      "paras": [
+        "Our [reel shoot service](/instagram-reel-shoot) is built for property. Book a shoot and we handle the filming and editing."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Want a reel for your property?",
+      "p": "Book a shoot.",
+      "actions": [
+        {
+          "label": "Book a shoot",
+          "go": "/instagram-reel-shoot#shoot-booking",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Co-broking in Pondicherry",
+          "go": "/guides/co-broking-pondicherry"
+        },
+        {
+          "name": "How to price before selling",
+          "go": "/guides/how-to-price-property-before-selling-pondicherry"
+        }
+      ]
+    }
+  ]
+}

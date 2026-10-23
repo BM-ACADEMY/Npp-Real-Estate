@@ -1,0 +1,163 @@
+{
+  "path": "/real-estate-kottakuppam",
+  "navKey": "area",
+  "crumb": "Area Guide",
+  "title": "Real Estate in Kottakuppam | Buy, Sell & Manage Property",
+  "description": "A local guide to property in Kottakuppam: what the area is like, who buys here, and help to buy, sell or manage a property while you live abroad.",
+  "h1": "Property in Kottakuppam, a Local Guide",
+  "eyebrow": "Area Guide",
+  "lead": "Kottakuppam sits just across the border from Pondicherry, on the Tamil Nadu side of the East Coast Road. It is close enough to town for daily life and far enough out that land still makes sense to buy.",
+  "ogImage": "og-area.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in property in Kottakuppam",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "The stretch between Kottakuppam and Auroville has changed a great deal in ten years. It carries a mix of long-settled local families, people working in Pondicherry who wanted a house rather than a flat, and buyers drawn by the Auroville belt. Schools, clinics and daily shopping are within a few minutes, and Pondicherry town is a short drive down the ECR."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who buys in Kottakuppam",
+      "bullets": [
+        "Families working abroad building a house to come back to",
+        "Pondicherry residents who want land rather than an apartment",
+        "Investors buying plots along the ECR and the Auroville approach roads",
+        "Small commercial buyers looking at shops on the main road"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check before buying here",
+      "paras": [
+        "The border matters. Land on the Tamil Nadu side follows Tamil Nadu approvals and registration, and the Puducherry side follows its own — this affects approval, stamp duty and sometimes loans. Confirm which side a property sits on before anything else, and check the approach road width and the water table, both of which vary noticeably within a kilometre here."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Kottakuppam",
+      "items": [
+        {
+          "k": "Looking to buy here",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property here",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Kottakuppam questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Is Kottakuppam in Tamil Nadu or Puducherry?",
+          "a": "Kottakuppam is in Villupuram district, Tamil Nadu, immediately adjoining the Puducherry boundary. Registration, approvals and stamp duty follow Tamil Nadu rules."
+        },
+        {
+          "q": "Is it a good area for a long-term investment?",
+          "a": "It has grown steadily with the Auroville and ECR belt. As always, the specific street, road width and approach matter more than the area name — we will give you a straight view on any particular plot."
+        },
+        {
+          "q": "Can you manage a house here while I am abroad?",
+          "a": "Yes. Kottakuppam is one of our main areas for property management, because so many families from here work overseas."
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Areas we cover",
+      "items": [
+        {
+          "name": "Ariyankuppam, Pondicherry",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Auroville and the Villages Around It",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Kalapet and the ECR Belt",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Kottakuppam, a Local Guide",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Kuyavarpalayam, Pondicherry",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Lawspet, Pondicherry",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Mudaliarpet, Pondicherry",
+          "go": "/real-estate-mudaliarpet"
+        },
+        {
+          "name": "Muthialpet, Pondicherry",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Reddiarpalayam, Pondicherry",
+          "go": "/real-estate-reddiarpalayam"
+        },
+        {
+          "name": "Investment Plots on the Tindivanam Highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Plots in Villianur, Pondicherry",
+          "go": "/real-estate-villianur"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Kottakuppam property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "href": "/contact#contact-form",
+    "label": "Tell us what you need"
+  }
+}

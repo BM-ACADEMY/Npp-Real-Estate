@@ -1,0 +1,160 @@
+{
+  "path": "/real-estate-reddiarpalayam",
+  "navKey": "area",
+  "crumb": "Reddiarpalayam",
+  "title": "Property in Reddiarpalayam | Homes & Commercial Space",
+  "description": "Houses and commercial space in Reddiarpalayam: a mixed residential and business area, and what to check for use, parking and tenants.",
+  "h1": "Property in Reddiarpalayam, Pondicherry",
+  "eyebrow": "Area Guide",
+  "lead": "Reddiarpalayam mixes homes with small businesses. That makes it useful for buyers who want rental income as much as a place to live.",
+  "ogImage": "og-reddiarpalayam.jpg",
+  "schema": [],
+  "modified": "2026-10-22",
+  "wa": "Hi, I am interested in property in Reddiarpalayam",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/buy-property-pondicherry#requirement",
+    "label": "Tell us what you need in Reddiarpalayam"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What the area is like",
+      "paras": [
+        "It is a busy part of town where residential streets sit close to shops and offices. Buyers here tend to care about footfall, parking and access as much as the house itself."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Who deals in Reddiarpalayam property",
+      "bullets": [
+        "Owners letting a ground floor as a shop and living above",
+        "Small businesses looking for space to rent or buy",
+        "Families buying a house near their work",
+        "Investors seeking a property that lets easily"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What to check",
+      "paras": [
+        "For commercial use, confirm that the building is approved for the use you intend and that parking and access are workable. For houses, check the building approval and whether extra floors match the sanction.",
+        "For landlords: a shop or office earns what the street will pay, and that changes. Our [rental audit](/free-rental-audit) compares what you collect with current rents nearby."
+      ]
+    },
+    {
+      "type": "doors",
+      "h": "How we can help in Reddiarpalayam",
+      "items": [
+        {
+          "k": "Looking to buy in Reddiarpalayam",
+          "d": "Tell us your budget and we will search, verify and shortlist.",
+          "go": "/buy-property-pondicherry"
+        },
+        {
+          "k": "Own property in Reddiarpalayam",
+          "d": "Get a free valuation before you decide anything.",
+          "go": "/free-property-valuation"
+        },
+        {
+          "k": "Living abroad",
+          "d": "We look after houses and shops for owners in the Gulf, Singapore and Europe.",
+          "go": "/nri-property-management-pondicherry"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "h": "Reddiarpalayam questions",
+      "id": "faq",
+      "items": [
+        {
+          "q": "Can I run a business from a house here?",
+          "a": "It depends on the approved use of the building and local rules. Check before you buy, not after."
+        },
+        {
+          "q": "How do I know what rent a shop here should earn?",
+          "a": "Compare current rents for similar premises on the same street. Our free rental audit does exactly this and tells you the gap."
+        },
+        {
+          "q": "Do you help with commercial purchases?",
+          "a": "Yes. We search, verify documents and negotiate for shops, buildings and office space."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Tell us about your Reddiarpalayam property or plans",
+      "p": "Buying, selling or looking after a property here? Send one message and a person will reply.",
+      "actions": [
+        {
+          "label": "Share my requirement",
+          "go": "/buy-property-pondicherry#requirement",
+          "style": "bloom"
+        },
+        {
+          "label": "Request a free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "line"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Other areas we cover",
+      "items": [
+        {
+          "name": "Kottakuppam",
+          "go": "/real-estate-kottakuppam"
+        },
+        {
+          "name": "Auroville",
+          "go": "/real-estate-auroville"
+        },
+        {
+          "name": "Muthialpet",
+          "go": "/real-estate-muthialpet"
+        },
+        {
+          "name": "Lawspet",
+          "go": "/real-estate-lawspet"
+        },
+        {
+          "name": "Villianur",
+          "go": "/real-estate-villianur"
+        },
+        {
+          "name": "Kalapet and ECR",
+          "go": "/real-estate-kalapet"
+        },
+        {
+          "name": "Ariyankuppam",
+          "go": "/real-estate-ariyankuppam"
+        },
+        {
+          "name": "Tindivanam highway",
+          "go": "/real-estate-tindivanam-highway"
+        },
+        {
+          "name": "Kuyavarpalayam",
+          "go": "/real-estate-kuyavarpalayam"
+        },
+        {
+          "name": "Mudaliarpet",
+          "go": "/real-estate-mudaliarpet"
+        }
+      ]
+    }
+  ]
+}

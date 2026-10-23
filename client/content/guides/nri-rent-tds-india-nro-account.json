@@ -1,0 +1,110 @@
+{
+  "path": "/guides/nri-rent-tds-india-nro-account",
+  "navKey": "guide",
+  "crumb": "How NRIs Receive Indian Rent: NRO Accounts and TDS",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "How NRIs Receive Indian Rent: NRO Accounts and TDS",
+  "description": "How rent from a Pondicherry property reaches an NRI: NRO accounts, TDS on rent, the paperwork tenants must handle, and when to involve a CA.",
+  "h1": "How NRIs receive rent from Indian property: NRO accounts and TDS explained",
+  "eyebrow": "Guide",
+  "lead": "Rent from a house in Pondicherry is easy to collect and surprisingly easy to get wrong when the owner lives abroad. The two things that cause most problems are where the money goes and who deducts tax.",
+  "ogImage": "og-nri-rent-tds-india-nro-account.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 2,
+    "group": "For owners living abroad"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/nri-property-management-pondicherry#property-check",
+    "label": "Book my free property check"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "Rent goes into an NRO account",
+      "paras": [
+        "Rent earned in India is Indian income. It normally goes into an NRO (non-resident ordinary) account, held in rupees. From there, the money can be used in India, and moving it abroad is allowed within yearly limits and with the right certificates. Ask your bank which forms it needs and take your CA’s advice on repatriation."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Tax is deducted before the rent reaches you",
+      "paras": [
+        "When a tenant pays rent to a non-resident, the law generally requires the tenant to deduct tax at source and deposit it against the owner’s PAN. The rate for non-residents is usually higher than for residents, and the tenant needs to be registered to do this.",
+        "Many tenants do not know this. When they find out years later, they sometimes owe back-tax and the argument lands on the owner. We are not tax advisors, so check the current rates and your own position with a chartered accountant."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Put it in writing at the start",
+      "bullets": [
+        "The agreement should say that rent is stated before or after tax, and who bears any shortfall",
+        "Ask the tenant for the tax deduction certificates and file them",
+        "Keep a record of every payment with date and mode",
+        "Do not accept cash for a property you manage from abroad"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Where a manager helps",
+      "paras": [
+        "A manager can collect rent into the account you choose, issue receipts, chase the tenant for certificates and send you a monthly statement, so your CA has clean records at filing time. See what our [management service](/nri-property-management-pondicherry) includes."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Not sure what your property earns after tax?",
+      "p": "A free property check shows the rent against the market and the state of your paperwork.",
+      "actions": [
+        {
+          "label": "Book my free property check",
+          "go": "/nri-property-management-pondicherry#property-check",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Rental agreement checklist for owners overseas",
+          "go": "/guides/rental-agreement-checklist-nri-landlord"
+        },
+        {
+          "name": "Manage your property from abroad",
+          "go": "/guides/manage-pondicherry-property-from-abroad"
+        }
+      ]
+    }
+  ]
+}

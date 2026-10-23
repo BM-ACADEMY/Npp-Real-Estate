@@ -1,0 +1,102 @@
+{
+  "path": "/guides/co-broking-pondicherry",
+  "navKey": "guide",
+  "crumb": "Co-Broking in Pondicherry: How Agents Can Share Deals",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Co-Broking in Pondicherry: How Agents Can Share Deals",
+  "description": "Co-broking lets agents bring buyers to listings they do not hold. How it can work fairly in Pondicherry, with clear commission terms.",
+  "h1": "Co-broking in Pondicherry: how agents can share deals and commission",
+  "eyebrow": "Guide",
+  "lead": "Most agents hold either buyers or listings, rarely both. Co-broking joins the two.",
+  "ogImage": "og-co-broking-pondicherry.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 22,
+    "group": "For agents and promoters"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/partner-with-us#partner-apply",
+    "label": "Apply to partner"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "How it works",
+      "paras": [
+        "One agent has a verified property. Another has a serious buyer. They agree up front how the commission is split, and the deal is run by whoever holds the listing."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "What makes it work",
+      "bullets": [
+        "Terms agreed in writing before the first viewing",
+        "Verified listings with documents checked",
+        "Clear rules on who owns the client relationship",
+        "Prompt payment of the agreed share after registration"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Partner with us",
+      "paras": [
+        "We work with agents and promoters on this basis. See [partner with us](/partner-with-us) for how it works and what we expect of partners."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Want to co-broke with us?",
+      "p": "Tell us about your inventory or buyers.",
+      "actions": [
+        {
+          "label": "Apply to partner",
+          "go": "/partner-with-us#partner-apply",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Why verified listings sell faster",
+          "go": "/guides/documents-to-check-before-buying-plot"
+        },
+        {
+          "name": "Property reel: what gets watched",
+          "go": "/guides/property-reel-what-gets-watched"
+        }
+      ]
+    }
+  ]
+}

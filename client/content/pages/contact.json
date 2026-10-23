@@ -1,0 +1,62 @@
+{
+  "path": "/contact",
+  "navKey": "contact",
+  "crumb": "Contact",
+  "title": "Contact Namma Pondy Properties | Pondicherry Office",
+  "description": "Talk to our Pondicherry property team on WhatsApp or call. Office open 10 AM to 7 PM. Video calls arranged for owners living abroad.",
+  "h1": "Talk to Our Team",
+  "eyebrow": "Contact",
+  "lead": "One message is enough to start. Tell us what you own or what you are looking for, and we will take it from there.",
+  "ogImage": "og-contact.jpg",
+  "schema": [
+    "LocalBusiness"
+  ],
+  "modified": "2026-10-22",
+  "wa": "Hi, I would like to talk about a property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Call 8220969669",
+      "go": "tel",
+      "style": "line"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "doors",
+      "h": "Reach us",
+      "items": [
+        {
+          "k": "WhatsApp",
+          "d": "8220969669 — the fastest way to reach us, and the one most of our clients use.",
+          "go": "https://wa.me/918220969669"
+        },
+        {
+          "k": "Call",
+          "d": "8220969669, between 10 AM and 7 PM, Monday to Saturday.",
+          "go": "tel:+918220969669"
+        },
+        {
+          "k": "Instagram",
+          "d": "@realestate_withkamar — property reels from across the district.",
+          "go": "https://www.instagram.com/realestate_withkamar/"
+        },
+        {
+          "k": "Video call",
+          "d": "For owners abroad. Tell us your city and we will call at a reasonable hour for you.",
+          "go": "/nri-property-management-pondicherry#video-call"
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "general_enquiry",
+      "h": "Send us a message"
+    }
+  ],
+  "guide": false
+}

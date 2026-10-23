@@ -1,0 +1,31 @@
+{
+  "path": "/our-projects", "navKey": "projects", "crumb": "Our Layouts",
+  "title": "New Residential Layouts Near Pondicherry | Our Projects",
+  "description": "We develop approved residential and investment layouts around Pondicherry, with clear titles, laid roads and streetlights. Ask what is open now.",
+  "h1": "Layouts We Develop Near Pondicherry", "eyebrow": "Our Layouts",
+  "lead": "Alongside our consulting work, we develop our own layouts. It keeps us honest — we sell plots we have approved, surveyed and laid out ourselves.",
+  "ogImage": "og-projects.jpg", "schema": ["Service"],
+  "service": { "name": "Layouts We Develop Near Pondicherry", "serviceType": "new layouts in Pondicherry" },
+  "modified": "2026-10-22",
+  "wa": "Hi, I want to know about your current layout projects",
+  "heroActions": [ { "label": "WhatsApp us", "go": "wa", "style": "wa" }, { "label": "Talk to our team", "go": "/contact", "style": "line" } ],
+  "blocks": [
+    { "type": "sec", "h": "What every layout of ours includes", "bullets": [
+      "Approval from the relevant authority, with the number available on request",
+      "A clear title, with the full document chain verified before a single plot is sold",
+      "Laid roads with proper width, and streetlights",
+      "Drainage and water access planned before plots are released",
+      "Plot boundaries physically marked on the ground" ] },
+    { "type": "sec", "h": "Where we develop", "paras": ["Our layouts sit on the Pondicherry outskirts, along the Kottakuppam belt, and on the growth corridor toward the Tindivanam highway. We choose land by approach road, water table and what is actually being built nearby — not by what is cheapest."] },
+    { "type": "cta", "h": "Ask what is open right now",
+      "p": "Availability, plot sizes and current pricing change month to month, so we share them directly rather than leaving stale numbers on a page. One message and we will send you what is live today.",
+      "actions": [ { "label": "Ask about current projects", "go": "#project-enquiry", "style": "bloom" }, { "label": "Book a free site visit", "go": "wa", "msg": "Hi, I would like to book a free site visit to one of your layouts.", "style": "line" } ],
+      "note": "Site visits include pickup from Pondicherry town." },
+    { "type": "form", "id": "project_enquiry" },
+    { "type": "sec", "h": "Own land suitable for a layout?", "paras": ["If you hold a parcel that could be developed, we take on joint developments — we handle approval, layout, infrastructure and sale, and you share the outcome. Bring us the survey number and we will tell you honestly whether it works."] },
+    { "type": "faq", "h": "About our layouts", "id": "faq", "items": [
+      { "q": "Can I see the approval documents?", "a": "Yes. We share approval copies, the layout plan and the parent documents with every serious buyer before any advance is taken." },
+      { "q": "Is a bank loan available on your plots?", "a": "Our layouts are approved and documented so that banks can lend on them. We introduce buyers to bankers we work with regularly." },
+      { "q": "Do you help with resale later?", "a": "Yes. We keep track of every plot we have sold and help our buyers resell when the time comes." } ] }
+  ]
+}

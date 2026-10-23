@@ -1,0 +1,110 @@
+{
+  "path": "/guides/how-to-price-property-before-selling-pondicherry",
+  "navKey": "guide",
+  "crumb": "How to Price Your Property Before Selling in Pondicherry",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "How to Price Your Property Before Selling in Pondicherry",
+  "description": "Pricing a property to sell in Pondicherry: what buyers compare, why asking too high costs you time, and how a valuation grounds the number.",
+  "h1": "How to price your property before selling in Pondicherry",
+  "eyebrow": "Guide",
+  "lead": "Owners lose money in two ways: quoting low because a broker was in a hurry, or quoting far above the street and waiting a year for a buyer who never comes.",
+  "ogImage": "og-how-to-price-property-before-selling-pondicherry.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 12,
+    "group": "For sellers"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/free-property-valuation#valuation",
+    "label": "Get my free valuation"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "What buyers actually compare",
+      "paras": [
+        "Buyers compare your property with alternatives nearby, not with what you paid or what you need. They look at road, approval, size, frontage, documents and what similar properties have actually sold for."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Start from evidence",
+      "bullets": [
+        "Recent registered sales near you, with dates",
+        "Current asking prices for comparable properties",
+        "The government’s guideline value, as a floor to understand, not a price",
+        "Specific features: road width, approach, corner position, approval",
+        "The condition of your documents"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Asking price versus selling price",
+      "paras": [
+        "A realistic asking price brings enquiries in the first weeks, when interest is highest. An optimistic one stalls, and a property that has been listed for months starts to look suspect. Leave room to negotiate, but not much."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Get the number checked",
+      "paras": [
+        "Our [free valuation](/free-property-valuation) uses recent registrations and local deals, and gives a written range with the reasoning. The decision on the asking price remains yours. See [how we sell](/sell-property-pondicherry)."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Start with the number",
+      "p": "A free valuation costs nothing and takes one visit.",
+      "actions": [
+        {
+          "label": "Get my free valuation",
+          "go": "/free-property-valuation#valuation",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "Guideline value vs market value",
+          "go": "/guides/guideline-value-vs-market-value-puducherry"
+        },
+        {
+          "name": "Selling an inherited property",
+          "go": "/guides/selling-inherited-property-tamil-nadu"
+        }
+      ]
+    }
+  ]
+}

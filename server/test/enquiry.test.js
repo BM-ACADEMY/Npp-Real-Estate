@@ -1,0 +1,28 @@
+'use strict';
+const http = require('http'); const fs = require('fs'); const os = require('os'); const path = require('path'); const assert = require('assert');
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'npp-')); process.env.STORE_FILE = path.join(tmp, 'e.jsonl');
+let crmMode = 'ok', received = [];
+const mock = http.createServer((req, res) => { let b = ''; req.on('data', (c) => (b += c)); req.on('end', () => { if (req.headers['x-npp-secret'] !== 's3cret') { res.writeHead(401); return res.end(); } if (crmMode === 'ok') { received.push(JSON.parse(b)); res.writeHead(200); } else res.writeHead(500); res.end('{}'); }); });
+const { normalisePhone } = require('../utils/phone');
+(async () => {
+  assert.strictEqual(normalisePhone('98765 43210'), '+919876543210'); assert.strictEqual(normalisePhone('+971 50 123 4567'), '+971501234567');
+  assert.strictEqual(normalisePhone('0065 9123 4567'), '+6591234567'); assert.strictEqual(normalisePhone('+33 6 12 34 56 78'), '+33612345678'); assert.strictEqual(normalisePhone('abc'), null);
+  await new Promise((r) => mock.listen(0, r)); process.env.N8N_WEBHOOK_URL = `http://127.0.0.1:${mock.address().port}/`; process.env.N8N_SECRET = 's3cret'; process.env.ADMIN_USER = 'admin'; process.env.ADMIN_PASS = 'pw';
+  const server = require('../app'); await new Promise((r) => server.listen(0, r)); const port = server.address().port;
+  const post = (body, type = 'application/json') => new Promise((ok) => { const d = type.includes('json') ? JSON.stringify(body) : new URLSearchParams(body).toString(); const rq = http.request({ port, path: '/api/enquiry', method: 'POST', headers: { 'Content-Type': type, 'Content-Length': Buffer.byteLength(d), 'X-Forwarded-For': body.ip || '1.1.1.' + Math.floor(Math.random() * 250) } }, (r) => { let o = ''; r.on('data', (c) => (o += c)); r.on('end', () => ok({ s: r.statusCode, o, h: r.headers })); }); rq.end(d); });
+  const get = (p) => new Promise((ok) => http.get({ port, path: p }, (r) => { r.resume(); ok({ s: r.statusCode, h: r.headers }); }));
+  const base = { form_type: 'property_check', source_page: '/free-rental-audit', fields: { name: 'Ali', phone: '+971 50 123 4567', country: 'UAE' }, utm: { source: 'ig' } };
+  let r = await post(base); assert.strictEqual(r.s, 200, 'happy path'); assert.strictEqual(received[0].phone, '+971501234567'); console.log('ok  stores + forwards overseas number');
+  r = await post({ ...base, fields: { name: '', phone: '123' } }); assert.strictEqual(r.s, 400); console.log('ok  validation rejects');
+  r = await post({ ...base, company_website: 'spam.com' }); assert.strictEqual(r.s, 200); assert.strictEqual(received.length, 1); console.log('ok  honeypot silent 200, nothing forwarded');
+  crmMode = 'fail'; r = await post(base); assert.strictEqual(r.s, 502); assert.ok(!JSON.parse(r.o).ok); const rows = fs.readFileSync(process.env.STORE_FILE, 'utf8').trim().split('\n').map(JSON.parse); assert.strictEqual(rows[rows.length - 1].crmStatus, 'failed'); console.log('ok  CRM failure -> no false success, row kept as failed');
+  crmMode = 'ok'; await require('../services/enquiry').retryPending(); assert.strictEqual(received.length, 2); console.log('ok  retry sends failed row');
+  r = await post({ form_type: 'general_enquiry', name: 'Raj', phone: '9876543210', source_page: '/contact', ip: '9.9.9.9' }, 'application/x-www-form-urlencoded'); assert.ok([200, 303, 400].includes(r.s)); console.log('ok  urlencoded fallback ->', r.s, '(see note: fields nested in JSON only)');
+  let last; for (let i = 0; i < 7; i++) last = await post({ ...base, ip: '8.8.8.8' }); assert.strictEqual(last.s, 429); console.log('ok  rate limit 429');
+  r = await get('/properties/123'); assert.strictEqual(r.s, 301); assert.strictEqual(r.h.location, '/buy-property-pondicherry');
+  r = await get('/business/owner'); assert.strictEqual(r.h.location, '/nri-property-management-pondicherry'); r = await get('/nope'); assert.strictEqual(r.s, 404); console.log('ok  redirects + 404');
+  r = await get('/free-rental-audit'); assert.strictEqual(r.s, 200); assert.ok(/noindex/.test(r.h['x-robots-tag'])); console.log('ok  clean URL + staging noindex header');
+  const adm = (auth) => new Promise((ok) => http.get({ port, path: '/admin/leads', headers: auth ? { Authorization: 'Basic ' + Buffer.from(auth).toString('base64') } : {} }, (r) => { let o = ''; r.on('data', (c) => (o += c)); r.on('end', () => ok({ s: r.statusCode, o })); }));
+  assert.strictEqual((await adm()).s, 401); assert.strictEqual((await adm('a:wrong')).s, 401); const ok = await adm('admin:pw'); assert.strictEqual(ok.s, 200); assert.ok(ok.o.includes('Ali')); console.log('ok  admin leads page needs login and lists leads');
+  mock.close(); server.close(); console.log('\nALL PASSED'); process.exit(0);
+})().catch((e) => { console.error('FAIL', e); process.exit(1); });

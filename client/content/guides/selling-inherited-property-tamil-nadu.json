@@ -1,0 +1,109 @@
+{
+  "path": "/guides/selling-inherited-property-tamil-nadu",
+  "navKey": "guide",
+  "crumb": "Selling an Inherited Property in Pondicherry: Where to Start",
+  "crumbParents": [
+    {
+      "name": "Guides",
+      "url": "/guides"
+    }
+  ],
+  "title": "Selling an Inherited Property in Pondicherry: Where to Start",
+  "description": "Inherited a house or plot in Pondicherry and want to sell? The papers to sort first: legal heir proof, mutation, family consent and a clear title.",
+  "h1": "Selling an inherited property in Pondicherry: the papers to sort first",
+  "eyebrow": "Guide",
+  "lead": "Inherited property is often the hardest to sell, not because buyers dislike it, but because the paperwork is incomplete. Sorting it first saves months.",
+  "ogImage": "og-selling-inherited-property-tamil-nadu.jpg",
+  "schema": [
+    "Article"
+  ],
+  "article": {
+    "datePublished": "2026-10-22",
+    "dateModified": "2026-10-22",
+    "author": "Namma Pondy Properties",
+    "order": 14,
+    "group": "For sellers"
+  },
+  "modified": "2026-10-22",
+  "wa": "Hi, I read your guide and have a question about my property in Pondicherry",
+  "heroActions": [
+    {
+      "label": "WhatsApp us",
+      "go": "wa",
+      "style": "wa"
+    },
+    {
+      "label": "Talk to our team",
+      "go": "/contact",
+      "style": "line"
+    }
+  ],
+  "guide": {
+    "href": "/free-property-valuation#valuation",
+    "label": "Talk to us about selling"
+  },
+  "blocks": [
+    {
+      "type": "sec",
+      "h": "Prove who the owners are",
+      "paras": [
+        "Buyers and their lawyers need to see that every legal heir is identified and agrees. Depending on the case, this means a will, a legal heir certificate or a succession document. A lawyer should tell you which applies to your family."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Get the records in your name",
+      "bullets": [
+        "Transfer the revenue records (patta and similar) to the heirs",
+        "Pay any pending property tax and utility dues",
+        "Get a fresh encumbrance certificate",
+        "Keep the original deeds of the person who passed away"
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Family agreement",
+      "paras": [
+        "If there are several heirs, all of them usually need to sign the sale, or one needs a properly drawn authorisation. A disagreement found after an advance is paid can stop the sale. Settle it in writing early. If an heir lives abroad, see our note on [power of attorney](/guides/power-of-attorney-property-india-nri)."
+      ]
+    },
+    {
+      "type": "sec",
+      "h": "Then price and sell",
+      "paras": [
+        "Once the title is clean the sale is like any other. Start with a [free valuation](/free-property-valuation), then look at [how we sell](/sell-property-pondicherry)."
+      ]
+    },
+    {
+      "type": "cta",
+      "h": "Inherited a property?",
+      "p": "Tell us what you hold. We will say what is missing before you list.",
+      "actions": [
+        {
+          "label": "Talk to us about selling",
+          "go": "/free-property-valuation#valuation",
+          "style": "bloom"
+        },
+        {
+          "label": "WhatsApp us",
+          "go": "wa",
+          "style": "wa"
+        }
+      ]
+    },
+    {
+      "type": "nearby",
+      "h": "Read next",
+      "items": [
+        {
+          "name": "What a clear title looks like",
+          "go": "/guides/clear-title-property-tamil-nadu"
+        },
+        {
+          "name": "How to price before selling",
+          "go": "/guides/how-to-price-property-before-selling-pondicherry"
+        }
+      ]
+    }
+  ]
+}

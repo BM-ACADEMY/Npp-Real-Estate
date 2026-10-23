@@ -1,0 +1,68 @@
+{
+  "path": "/buy-property-pondicherry",
+  "navKey": "buy",
+  "crumb": "Buy",
+  "title": "Buy Property in Pondicherry | Verified Plots, Houses, Shops",
+  "description": "Buy a plot, house or shop in Pondicherry and Kottakuppam with every document verified before you pay an advance. Send us your requirement on WhatsApp.",
+  "h1": "Buy Property in Pondicherry With Someone Checking Everything First",
+  "eyebrow": "Buy",
+  "lead": "Most buyers in Puducherry lose their weekends visiting properties that were never right, and their sleep worrying about approvals nobody explained. We do that part for you.",
+  "ogImage": "og-buy.jpg",
+  "schema": ["Service"],
+  "service": { "name": "Buy Property in Pondicherry With Someone Checking Everything First", "serviceType": "buy property in Pondicherry" },
+  "modified": "2026-10-22",
+  "wa": "Hi, I am looking to buy a property in Pondicherry. My budget is ___ and I am looking in ___",
+  "heroActions": [
+    { "label": "WhatsApp us", "go": "wa", "style": "wa" },
+    { "label": "Share my requirement", "go": "#requirement", "style": "line" }
+  ],
+  "blocks": [
+    { "type": "sec", "h": "What we help you buy",
+      "bullets": [
+        "House sites and plots, approved and ready for registration",
+        "Independent houses and villas in Pondicherry town and the surrounding areas, including [Kottakuppam](/real-estate-kottakuppam)",
+        "Commercial shops, buildings and office space",
+        "Farmland and larger parcels for investors",
+        "Plots in [the layouts we develop ourselves](/our-projects)"
+      ] },
+    { "type": "steps", "h": "How buying with us works", "items": [
+      { "h": "Tell us your requirement", "d": "Budget, area, purpose and when you want to register. Five minutes on WhatsApp or a call." },
+      { "h": "We search and verify", "d": "We shortlist from our own network and check patta, chitta, encumbrance certificate, approval and parent documents before you see anything." },
+      { "h": "You visit what matters", "d": "Two or three properties worth your time, arranged together so one trip is enough. We can pick you up from Pondicherry town." },
+      { "h": "Negotiation and registration", "d": "We negotiate, coordinate with your bank if there is a loan, and take you through to the sub-registrar's office." }
+    ] },
+    { "type": "cta", "h": "Tell us what you're looking for",
+      "p": "Budget, area, plot or house, own use or investment — send it in one message and we'll come back with options.",
+      "actions": [
+        { "label": "Share my requirement", "go": "#requirement", "style": "bloom" },
+        { "label": "WhatsApp us", "go": "wa", "style": "wa" }
+      ] },
+    { "type": "form", "id": "requirement", "h": "Share your requirement" },
+    { "type": "cta", "tone": "deep",
+      "h": "Already found a property somewhere else? Get the documents checked free.",
+      "p": "Send us the patta, EC and parent documents before you pay an advance. We will tell you plainly what is clean and what is a risk. No charge, no obligation to buy through us.",
+      "actions": [ { "label": "Send documents for a free check", "go": "#document-check", "style": "light" } ],
+      "note": "Most advance money is lost on documents nobody read properly." },
+    { "type": "form", "id": "document_check", "h": "Send documents for a free check" },
+    { "type": "sec", "h": "What we check before you pay anything",
+      "bullets": [
+        "Approval status of the layout — DTCP or PPA, and whether the approval is current",
+        "Patta and chitta in the seller's name, matching the survey number",
+        "Encumbrance certificate for the last 15 to 30 years",
+        "Parent documents and the chain of ownership",
+        "Any court attachment, bank mortgage or pending dues on the property",
+        "Actual measurements on site against what the document says"
+      ] },
+    { "type": "sec", "h": "Our charges",
+      "paras": [
+        "We charge the buyer a service fee of 2% of the property value up to ₹1 crore, and 1% above ₹1 crore. It is payable after registration, not before. There is no fee for searching, visiting or document checking.",
+        "Not sure what a property should cost? [Ask for a free valuation](/free-property-valuation) of anything you are considering."
+      ] },
+    { "type": "faq", "h": "Buyer questions", "id": "faq", "items": [
+      { "q": "What is the difference between DTCP and PPA approval?", "a": "DTCP is the Tamil Nadu Directorate of Town and Country Planning; PPA is the Puducherry Planning Authority. Which one applies depends on which side of the border the land sits, and it affects loans and resale. We confirm the approving authority and the approval number for every property we handle." },
+      { "q": "Will a bank give a loan on the property?", "a": "Approved layouts with a clean chain of documents are usually financeable. We tell you upfront where a bank is likely to refuse, and we work with buyers' banks through the process." },
+      { "q": "Can NRIs buy property here?", "a": "Yes, NRIs and persons of Indian origin can buy residential and commercial property in India. Agricultural land, plantations and farmhouses cannot be purchased, only inherited. We can handle the entire purchase under a power of attorney if you cannot travel." },
+      { "q": "How long does registration take?", "a": "Once the documents are clean and the price is agreed, registration is usually completed within two to three weeks." }
+    ] }
+  ]
+}

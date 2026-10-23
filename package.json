@@ -1,0 +1,18 @@
+{
+  "name": "npp-website",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Namma Pondy Properties — client/ (React frontend) + server/ (Node backend). Shortcuts that run either from here.",
+  "scripts": {
+    "setup": "npm install --prefix client",
+    "dev": "node scripts/dev.js",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "build:prod": "npm run build:prod --prefix client",
+    "verify": "npm run verify --prefix client",
+    "start": "npm start --prefix server",
+    "test": "npm test --prefix server"
+  },
+  "engines": { "node": ">=20" }
+}
