@@ -48,15 +48,7 @@ ul,ol{margin:0; padding:0}
 }
 .head-in{display:flex; align-items:center; gap:18px; flex-wrap:wrap; padding-block:11px}
 .logo{display:flex; align-items:center; gap:10px; text-decoration:none; line-height:1.1}
-.logo .mark{
-  width:34px; height:34px; flex:none; border-radius:10px; background:var(--sea);
-  background-image:linear-gradient(135deg,var(--sea),#0E3E35);
-  position:relative;
-}
-.logo .mark::after{
-  content:""; position:absolute; right:5px; top:5px; width:8px; height:8px;
-  border-radius:50%; background:var(--bloom);
-}
+.logo .mark{display:block; width:auto; height:52px; flex:none}
 .logo b{display:block; font-family:var(--serif); font-size:18.5px; font-weight:600; color:var(--ink); letter-spacing:-.01em}
 .logo span span{
   display:block; font:700 8.8px/1 var(--sans); letter-spacing:.17em;
@@ -114,6 +106,8 @@ h1{font-size:clamp(31px,5.1vw,52px); line-height:1.08; margin-top:16px; letter-s
 .hero-actions{display:flex; gap:11px; flex-wrap:wrap; margin-top:26px}
 .hero-art{border-radius:18px; overflow:hidden; box-shadow:var(--lift)}
 .hero-art img{width:100%; aspect-ratio:4/3; object-fit:cover}
+.hero-art.contain{border-radius:0; overflow:visible; box-shadow:none}
+.hero-art.contain img{aspect-ratio:auto; height:auto; object-fit:contain}
 
 /* ---------------- trust strip ---------------- */
 .trust{background:var(--line); border-block:1px solid var(--line)}
@@ -299,6 +293,7 @@ details[open] summary::after{transform:rotate(-135deg); top:24px}
 .site-foot ul{list-style:none; display:grid; gap:9px; font-size:14px}
 .site-foot a{color:var(--deep-muted); text-decoration:none}
 .site-foot a:hover{color:var(--deep-text); text-decoration:underline}
+.foot-logo{display:block; width:auto; height:110px; margin-bottom:16px}
 .foot-brand p{font-size:14px; margin-top:12px; max-width:34ch}
 .foot-base{border-top:1px solid rgba(255,255,255,.1); padding-block:16px 18px}
 .foot-base p{font-size:12.5px; margin:0}
@@ -323,6 +318,9 @@ details[open] summary::after{transform:rotate(-135deg); top:24px}
 }
 
 /* ---------------- additions ---------------- */
+.sec-media{display:grid; gap:34px; grid-template-columns:1.15fr .85fr; align-items:center}
+.sec-media > img{width:100%; height:auto}
+@media (max-width:880px){ .sec-media{grid-template-columns:1fr; gap:22px} .sec-media > img{max-width:420px} }
 .hero-grid.solo{grid-template-columns:1fr}
 .hero-grid.solo h1{max-width:22ch}
 .noscript-note{font-size:13.5px; color:var(--muted); margin-top:10px}
@@ -336,8 +334,6 @@ details[open] summary::after{transform:rotate(-135deg); top:24px}
 .site-head{border-bottom:4px solid var(--yellow)}
 .hero{background:linear-gradient(180deg,var(--sand-2) 0%,var(--sand) 100%)}
 .eyebrow{color:var(--bloom)}
-.logo .mark{background:var(--yellow) !important; border-radius:46% 54% 50% 50% / 55% 45% 55% 45%}
-.logo .mark::after{background:var(--bloom) !important}
 .btn-bloom{background:var(--bloom); color:var(--on-bloom)}
 .site-foot{border-top:4px solid var(--yellow)}
 .site-foot a{color:#FFE9A8}

@@ -3,6 +3,14 @@ import { Action, Md } from './Basics.jsx';
 import { EnquiryForm } from './EnquiryForm.jsx';
 
 function Sec({ block }) {
+  if (block.img) {
+    return (
+      <div className="sec-media">
+        <div><Sec block={{ ...block, img: undefined }} /></div>
+        <img src={`/images/${block.img}`} width={block.imgW} height={block.imgH} alt={block.imgAlt || ''} loading="lazy" />
+      </div>
+    );
+  }
   return (
     <>
       {block.h && <h2>{block.h}</h2>}
@@ -168,7 +176,7 @@ function Hero({ page }) {
           )}
         </div>
         {page.hasHeroArt && (
-          <div className="hero-art">
+          <div className={'hero-art' + (page.heroFit === 'contain' ? ' contain' : '')}>
             <img src={`/images/${page.heroImage}`} width="800" height="600" alt={page.heroAlt || ''} fetchpriority="high" />
           </div>
         )}

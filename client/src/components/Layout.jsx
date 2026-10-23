@@ -10,7 +10,7 @@ export function Header({ navKey }) {
       <header className="site-head">
         <div className="wrap head-in">
           <a className="logo" href="/">
-            <span className="mark" aria-hidden="true"></span>
+            <img className="mark" src="/images/logo.webp" alt="" width="1536" height="969" />
             <span><b>{site.name}</b><span>{site.tagline}</span></span>
           </a>
           <a className="btn btn-wa btn-sm head-cta" href={waLink(site.waNumber, waMsg)} target="_blank" rel="noopener" data-pos="header">
@@ -54,7 +54,7 @@ export function Footer() {
     <>
       <footer className="site-foot">
         <div className="wrap foot-in">
-          <div className="foot-brand"><h2>{site.name}</h2><p>{site.footerBlurb}</p></div>
+          <div className="foot-brand"><img className="foot-logo" src="/images/logo.webp" alt="" width="1536" height="969" loading="lazy" /><h2>{site.name}</h2><p>{site.footerBlurb}</p></div>
           <nav aria-label="Services"><h2>Services</h2><ul>{list(site.footerServices)}</ul></nav>
           <nav aria-label="For owners abroad"><h2>Owners abroad</h2><ul>{list(site.footerAbroad)}</ul></nav>
           <div>

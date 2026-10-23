@@ -142,6 +142,7 @@ function agentSchema(site) {
     '@id': `${site.url}/#organization`,
     name: site.name,
     url: site.url,
+    logo: abs(site, '/images/logo.webp'),
     telephone: site.phone,
     description: site.description,
     address,
@@ -180,7 +181,7 @@ function buildSchema(page, ctx) {
         address: { '@type': 'PostalAddress', streetAddress: site.address, addressLocality: 'Pondicherry', addressRegion: 'Puducherry', postalCode: site.postalCode || undefined, addressCountry: 'IN' },
         openingHours: 'Mo-Sa 10:00-19:00',
       };
-      if (imageExists('team.jpg')) lb.image = abs(site, '/images/team.jpg');
+      if (imageExists('logo.webp')) lb.image = abs(site, '/images/logo.webp');
       if (site.geo) lb.geo = { '@type': 'GeoCoordinates', latitude: site.geo.lat, longitude: site.geo.lng };
       else warn(`${page.path}: LocalBusiness published WITHOUT geo-coordinates — add "geo": {"lat":..,"lng":..} to content/site.json`);
       graph.push(lb);
@@ -223,8 +224,9 @@ export function renderHead(page, ctx) {
   const title = esc(page.title);
   const desc = esc(page.description);
   const url = abs(site, page.path);
-  const og = imageExists(page.ogImage) ? `${site.url}/images/${page.ogImage}` : null;
-  if (!og) warn(`${page.path}: og:image "${page.ogImage || '(none)'}" not found in public/images — og:image omitted`);
+  const ogFile = imageExists(page.ogImage) ? page.ogImage : imageExists('logo.webp') ? 'logo.webp' : null;
+  const og = ogFile ? `${site.url}/images/${ogFile}` : null;
+  if (ogFile !== page.ogImage) warn(`${page.path}: og:image "${page.ogImage || '(none)'}" not found in public/images — ${og ? 'using logo.webp' : 'og:image omitted'}`);
   const hreflang = (page.hreflang || [])
     .filter((h) => publishedPaths.has(h.path))
     .map((h) => `<link rel="alternate" hreflang="${h.lang}" href="${abs(site, h.path)}">`)
@@ -249,6 +251,9 @@ ${og ? `<meta name="twitter:image" content="${og}">` : ''}
 <meta name="geo.region" content="IN-PY">
 <meta name="geo.placename" content="Pondicherry">
 ${hreflang}
+<link rel="icon" type="image/webp" href="/images/logo.webp">
+<link rel="apple-touch-icon" href="/images/logo.webp">
+<link rel="preload" as="image" href="/images/logo.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Karla:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;600&display=swap">

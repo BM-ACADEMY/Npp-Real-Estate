@@ -7,7 +7,7 @@
   "h1": "About Namma Pondy Properties",
   "eyebrow": "About",
   "lead": "We are a Pondicherry property team: buying, selling, developing layouts and managing property for owners who live here and owners who live abroad.",
-  "ogImage": "team.jpg",
+  "ogImage": "logo.webp",
   "schema": [
     "Organization"
   ],
@@ -40,7 +40,7 @@
       "type": "sec",
       "h": "Part of Afra Ventures",
       "paras": [
-        "Namma Pondy Properties is part of Afra Ventures Pvt Ltd, which also runs an academy, a digital agency and other local businesses from Pondicherry. For property listings, see [The Plot One](https://theplotone.in/), our separate listings platform."
+        "Namma Pondy Properties is part of Afra Ventures Pvt Ltd, which also runs an academy, a digital agency and other local businesses from Pondicherry. For property listings, see [The Plot One](https://theplotone.com/), our separate listings platform."
       ]
     },
     {
@@ -65,6 +65,7 @@
     "href": "/contact#contact-form",
     "label": "Talk to our team"
   },
-  "heroImage": "team.jpg",
-  "heroAlt": "The Namma Pondy and ABM Groups team in the Pondicherry office with Kamarudeen B"
+  "heroImage": "logo.webp",
+  "heroFit": "contain",
+  "heroAlt": "Namma Pondy logo: a Pondicherry seafront sketch on a yellow map shape"
 }
