@@ -2,7 +2,7 @@
 const fs = require('fs'); const path = require('path');
 const DIST = path.join(__dirname, '..', 'dist'); const prod = process.argv.includes('--prod') || process.env.SITE_ENV === 'production';
 let errors = 0, warns = 0; const E = (m) => { errors++; console.log('  ERROR ' + m); }; const W = (m) => { warns++; console.log('  warn  ' + m); };
-const files = []; (function walk(d) { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); fs.statSync(p).isDirectory() ? walk(p) : p.endsWith('.html') && files.push(p); } })(DIST);
+const files = []; (function walk(d) { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); fs.statSync(p).isDirectory() ? walk(p) : p.endsWith('.html') && !/^google[0-9a-f]+\.html$/.test(f) && files.push(p); } })(DIST); // Search Console verification files are not pages
 const routeOf = (f) => { let r = '/' + path.relative(DIST, f).replace(/\\/g, '/').replace(/\.html$/, ''); return r === '/index' ? '/' : r; };
 const routes = new Set(files.map(routeOf)); routes.delete('/404'); const anchors = {};
 const dec = (s) => s.replace(/&amp;/g, '&').replace(/&#39;|&#x27;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
