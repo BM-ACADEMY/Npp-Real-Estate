@@ -84,6 +84,7 @@ const server = http.createServer(async (req, res) => {
   if (!['GET', 'HEAD'].includes(req.method)) return send(res, 405, 'Method not allowed');
   for (const [re, to] of REDIRECTS) if (re.test(p)) return send(res, 301, '', 'text/plain', { Location: to });
   if (p.length > 1 && p.endsWith('/')) return send(res, 301, '', 'text/plain', { Location: p.slice(0, -1) + url.search });
+  if (/^\/google[0-9a-f]+\.html$/.test(p)) { const g = resolve(p); if (g) return serveFile(res, g); } // Search Console verification file must answer 200 at its exact .html URL
   if (p.endsWith('.html')) return send(res, 301, '', 'text/plain', { Location: p.replace(/(?:\/index)?\.html$/, '') || '/' });
   const f = resolve(p === '/' ? '/index.html' : p);
   if (f) return serveFile(res, f);
