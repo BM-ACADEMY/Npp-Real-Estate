@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { attribution, track, trackLead } from '../lib/analytics.js';
 import { waLink } from '../lib/markup.js';
 import { useSite } from '../lib/SiteContext.js';
-import { Action } from './Basics.jsx';
+import { WaIcon } from './Basics.jsx';
 
 // Parameters from the SEO Tracking Plan. Never send name, phone or free text to analytics.
 const PARAMS = {
@@ -23,6 +23,18 @@ function gaParams(type, fields) {
 }
 const validPhone = (v) => { const d = v.replace(/[^\d]/g, ''); return d.length >= 7 && d.length <= 15; };
 const SKIP = ['form_type', 'source_page', 'company_website'];
+
+// Builds the WhatsApp text from whatever the visitor has typed so far.
+function waText(form, cfg, fallback) {
+  const lines = [];
+  for (const f of cfg.fields) {
+    const el = form.elements[f.name];
+    const v = el && el.value ? el.value.trim() : '';
+    if (v) lines.push(f.label.replace(/\s*\(optional\)/i, '') + ': ' + v);
+  }
+  if (!lines.length) return cfg.waMsg || fallback;
+  return 'Hi, here are my details:\n\n' + lines.join('\n');
+}
 
 function Control({ f, id, invalid }) {
   const attrs = {
@@ -165,7 +177,12 @@ export function EnquiryForm({ block, page }) {
         {cfg.wa && (
           <>
             <p className="or" hidden={sent || undefined}>or, if it is easier</p>
-            <Action a={{ label: cfg.wa, go: 'wa', style: 'wa', msg: cfg.waMsg }} pos="form" full />
+            <a
+              className="btn btn-wa btn-full" href={waHref} target="_blank" rel="noopener" data-pos="form"
+              onClick={(ev) => { ev.currentTarget.href = waLink(site.waNumber, waText(formRef.current, cfg, waMsg)); }}
+            >
+              <WaIcon /> {cfg.wa}
+            </a>
           </>
         )}
         {note && <p className="formnote">{note}</p>}
