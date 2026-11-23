@@ -32,10 +32,10 @@ export function GuideButton({ guide }) {
     let nudged = false, tipTimer;
     function nudge() {
       if (nudged) return; nudged = true; setPulse(true);
-      if (!target || !inView(target)) { setTip(true); tipTimer = setTimeout(() => setTip(false), 6000); }
+      if ((!target || !inView(target)) && window.scrollY >= 300) { setTip(true); tipTimer = setTimeout(() => setTip(false), 6000); }
     }
     function update() {
-      const h = (target && inView(target)) || !!document.querySelector('.npp-pop');
+      const h = (target && inView(target)) || !!document.querySelector('.npp-pop') || window.scrollY < 300 || innerHeight + window.scrollY > document.documentElement.scrollHeight - 500; // not over the hero buttons or the footer
       setHide(h); if (h) setTip(false);
       const d = document.documentElement; if ((d.scrollTop + innerHeight) / d.scrollHeight > 0.4) nudge();
     }

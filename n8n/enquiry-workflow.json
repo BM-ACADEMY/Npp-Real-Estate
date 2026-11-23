@@ -125,7 +125,7 @@
       "parameters": {
         "sendTo": "SET_ALERT_EMAIL",
         "subject": "={{ 'New NPP lead: ' + $('Map row').first().json['Name'] + ' (' + $('Map row').first().json['Form type'] + ')' }}",
-        "message": "={{ 'Name: ' + $('Map row').first().json['Name'] + '\\nPhone: ' + $('Map row').first().json['Phone'] + '\\nForm: ' + $('Map row').first().json['Form type'] + '\\nPage: ' + $('Map row').first().json['Source page'] + '\\nDetails: ' + $('Map row').first().json['Details'] + '\\nWhatsApp: https://wa.me/' + $('Map row').first().json['Phone'].replace('+','') }}"
+        "message": "={{ 'Name: ' + $('Map row').first().json['Name'] + '\\nPhone: ' + $('Map row').first().json['Phone'] + '\\nForm: ' + $('Map row').first().json['Form type'] + '\\nPage: ' + $('Map row').first().json['Source page'] + ($('Map row').first().json['Property type'] ? '\\nProperty type: ' + $('Map row').first().json['Property type'] : '') + ($('Map row').first().json['Property area'] ? '\\nArea: ' + $('Map row').first().json['Property area'] : '') + ($('Map row').first().json['Country'] ? '\\nCountry: ' + $('Map row').first().json['Country'] : '') + '\\nDetails: ' + $('Map row').first().json['Details'] + '\\nWhatsApp: https://wa.me/' + $('Map row').first().json['Phone'].replace('+','') }}"
       },
       "name": "New lead alert",
       "type": "n8n-nodes-base.gmail",
